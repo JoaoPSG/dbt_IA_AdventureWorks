@@ -34,7 +34,7 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   dbt_IA_AdventureWorks:
     # Config indicated by + and applies to all files under models/example/
-    Staging:
-      +materialized: Ephemeral
-    Marts:
-      +materialized: Table
+    staging:
+      +materialized: ephemeral
+    marts:
+      +materialized: table
