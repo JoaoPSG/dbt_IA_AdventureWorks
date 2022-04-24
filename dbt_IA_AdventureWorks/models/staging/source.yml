@@ -1,0 +1,155 @@
+
+version: 2
+
+sources:
+  - name: AdventureWorks_BQ
+    description: "AdventureWorks DW on Big Query; Extracted from Indicium postgres with Airbyte"
+    database: valid-sol-346522
+    schema: AdventureWorks
+
+    tables:
+      - name: airbyte_creditcard
+        columns:
+          - name: creditcardid
+            description: Natural Key
+          - name: cardnumber
+          - name: cardtype
+          - name: expyear
+          - name: expmonth
+          - name: modifieddate
+
+
+      - name: airbyte_customer
+        columns:
+          - name: customerid
+            description: NK
+          - name: personid
+            description: FK 
+          - name: territoryid
+            description: FK salesterritory
+          - name: storeid
+            description: FK store (not used)
+          - name: rowguid
+          - name: modifieddate
+
+
+      - name: airbyte_product
+        columns:
+          - name: productid
+            description: NK
+
+          - name: productmodelid
+            description: FK
+          - name: productsubcategoryid
+            description: FK
+
+          - name: name
+          - name: productnumber
+    
+          - name: size
+          - name: class
+          - name: color
+          - name: style
+          - name: weight
+          - name: makeflag
+          - name: listprice
+          - name: productline
+          - name: sellenddate
+          - name: reorderpoint
+          - name: standardcost
+          - name: sellstartdate
+          - name: discontinueddate
+          - name: safetystocklevel
+          - name: daystomanufacture
+          - name: finishedgoodsflag
+          - name: sizeunitmeasurecode
+          - name: weightunitmeasurecode
+          - name: rowguid
+          - name: modifieddate
+
+
+      - name: airbyte_salesorderdetail
+        columns:
+          - name: salesorderid
+            description: NK
+          - name: salesorderdetailid
+            description: NK; FK
+          - name: productid
+            description: FK
+          - name: specialofferid
+            description: FK
+          - name: orderqyt
+          - name: unitprice
+          - name: unitpricediscount
+          - name: carriertrackingnumber
+          - name: rowguid
+          - name: modifieddate
+
+
+      - name: airbyte_salesorderheader
+        columns:
+          - name: salesorderid
+            description: NK
+          - name: salespersonid
+            description: FK (dont know if will be used)
+          - name: currencyid
+            description: FK (not used)
+          - name: customerid
+            description: FK customer
+          - name: territoryid
+            description: FK salesterritory
+          - name: creditcardid
+            description: FK creditcard
+          - name: shipmethodid
+            description: FK (not used)
+          - name: billtoaddressid
+            description: FK (not used?)
+          - name: shiptoaddressid
+            description: FK (not used?)
+          - name: status
+          - name: taxamt
+          - name: comment
+          - name: duedate
+          - name: freight
+          - name: shipdate
+          - name: subtotal
+          - name: totaldue
+          - name: orderdate
+          - name: accountnumber
+          - name: revisionnumber
+          - name: onlineorderflag
+          - name: purcharseordernumber
+          - name: creditcardapprovalcode
+          - name: rowguid
+          - name: modifieddate
+
+
+      - name: airbyte_salesorderheadersalesreason
+        columns:
+          - name: salesorderid
+            description: NK; FK
+          - name: salesreasonid
+            description: NK; FK
+          - name: modifieddate
+
+      - name: airbyte_salesreason
+        columns:
+          - name: salesreasonid
+            description: NK
+          - name: name
+          - name: reasontype
+          - name: modifieddate
+
+      - name: airbyte_salesterritory
+        columns:
+          - name: territoryid
+            description: NK
+          - name: name
+          - name: group
+          - name: costytd
+          - name: salesytd
+          - name: costlastyear
+          - name: saleslastyear
+          - name: countryregioncode
+          - name: rowguid
+          - name: modifieddate
