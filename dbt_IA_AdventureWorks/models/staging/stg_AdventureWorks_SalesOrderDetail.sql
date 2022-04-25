@@ -5,18 +5,18 @@ with source as (
 Customer as (
     select
         /* Natural Key */
-        salesorderid
-        ,salesorderdetailid
+        salesorderid as salesOrder_id
+        ,salesorderdetailid as salesOrderDetail_id
         /* Foreing Key */
-        ,productid
-        ,specialofferid
+        ,productid as product_id
+        ,specialofferid as specialOffer_id
         /* Columns */
-        ,orderqyt
-        ,unitprice
-        ,unitpricediscount
-        ,carriertrackingnumber
+        ,orderqyt as orderQyt
+        ,unitprice as unitPrice
+        ,unitpricediscount as unitPriceDiscount
+        ,carriertrackingnumber as carrierTrackingNumber
         ,rowguid
-        ,modifieddate
+        ,cast(modifieddate as date) as modifiedDate
     from source
 )
 

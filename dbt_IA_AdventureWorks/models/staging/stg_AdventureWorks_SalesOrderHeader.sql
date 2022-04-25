@@ -5,12 +5,12 @@ with source as (
 SalesOrder as (
     select
         /* Natural Key */
-        salesorderid
+        salesorderid as salesOrder_id
         /* Foreing Key */
         ,salespersonid -- maybe delete
-        ,customerid
-        ,territoryid
-        ,creditcardid
+        ,customerid as customer_id
+        ,territoryid as territory_id
+        ,creditcardid as creditCard_id
         /* Columns */
         ,"status"
         ,taxamt

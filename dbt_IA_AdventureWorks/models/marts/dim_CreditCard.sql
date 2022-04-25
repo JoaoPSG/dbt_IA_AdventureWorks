@@ -6,7 +6,7 @@ with
     final as (
         select
             /* Surrogate Key */
-            row_number() over (order by creditCard_id) as Reason_sk --auto incremental surrogate key
+            row_number() over (order by creditCard_id) as reason_sk --auto incremental surrogate key
             /* Natural Key */
             ,creditCard_id
             /* Columms */

@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: dim_CreditCard
+    columns:
+      - name: reason_sk 
+        description: Surrogate Key
+      - name: creditCard_id
+        description: Natural Key
+
+# fazer depois de traduzir nomes
