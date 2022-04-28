@@ -1,82 +1,80 @@
 with
     /* from Stage */
-    SalesOrder as (
-        select * from {{ ref('stg_AdventureWorks_SalesOrder') }} 
+    SalesOrders as (
+        select * from {{ ref('stg_AdventureWorks_SalesOrders') }} 
     ),
 
-    SalesOrderDetail as (
-        select * from {{ ref('stg_AdventureWorks_SalesOrderDetail') }}
+    SalesOrderDetails as (
+        select * from {{ ref('stg_AdventureWorks_SalesOrderDetails') }}
     ),
 
     /* from Dimensions */
-    dim_CreditCard as (
+    dim_CreditCards as (
         select
-            customer_sk
-            ,customer_id
-        from {{ ref('dim_CreditCard') }}
+            creditCard_sk
+            ,creditCard_id
+        from {{ ref('dim_CreditCards') }}
     ),
 
-    dim_Product as (
+    dim_Products as (
         select
-            employee_sk
-            ,employee_id        
-        from {{ ref('dim_Product') }}
+            product_sk
+            ,product_id        
+        from {{ ref('dim_Products') }}
     ),
 
     dim_Reasons as (
         select
-            product_sk
-            ,product_id
+            reason_sk
+            ,salesOrder_id
         from {{ ref('dim_Reasons') }}
     ),
     
-    dim_SalesTerritory as (
+    dim_SalesTerritories as (
         select
-            product_sk
-            ,product_id
-        from {{ ref('dim_SalesTerritory') }}
+            territory_sk
+            ,territory_id
+        from {{ ref('dim_SalesTerritories') }}
     ),
 
 
     final as (
         select
             /* Surrogate Key */
-            row_number() over (order by order_details.order_id, order_details.product_id) as orders_details_sk --auto incremental SK
+            {{ dbt_utils.surrogate_key(['SalesOrders.salesOrder_id', 'SalesOrderDetails.salesOrderDetail_id']) }} as salesOrdersDetais_sk --hashed surrogate key
             /* Natural Key */
-            ,orders.order_id
-            ,order_details.product_id
+            ,SalesOrders.salesOrder_id
+            ,SalesOrderDetails.salesOrderDetail_id
             /* Foreing Key */
-            ,customer_sk
-            ,employee_sk
+            ,creditCard_sk
             ,product_sk
+            ,reason_sk
+            ,territory_sk
             /* Columns */
-            ,order_details.unit_price
-            ,order_details.quantity
-            ,order_details.discount
+            ,SalesOrders.orderStatus
+            ,SalesOrders.taxamt
+            ,SalesOrders.comment
+            ,SalesOrders.dueDate
+            ,SalesOrders.freight
+            ,SalesOrders.shipDate
+            ,SalesOrders.subtotal
+            ,SalesOrders.totalDue
+            ,SalesOrders.orderDate
+            ,SalesOrders.accountNumber
+            ,SalesOrders.revisionNumber
+            ,SalesOrders.onlineOrderFlag
+            ,SalesOrders.purchaseOrderNumber
+            ,SalesOrders.creditCardApprovalCode
+            ,SalesOrders.rowguid
+            ,SalesOrders.modifiedDate
+        from SalesOrderDetails
 
-            ,order_date 
-            ,required_date 
-            ,shipped_date 
+        left join SalesOrders on SalesOrderDetails.salesOrder_id = SalesOrders.salesOrder_id
 
-            ,orders.freight
-            ,orders.ship_name
-            ,orders.ship_address
-            ,orders.ship_city
-            ,orders.ship_region
-            ,orders.ship_postal_code
-            ,orders.ship_country
-
-            ,shippers.company_name as shipper_name
-            ,shippers.phone as shipper_phone
-        
-        from SalesOrderDetail
-
-        left join SalesOrder on SalesOrderDetail.salesOrder_id = SalesOrder.salesOrder_id
-
-        left join dim_CreditCard on orders.customer_id = dim_CreditCard.customer_id
-        left join dim_Product on orders.employee_id = dim_Product.employee_id
-        left join dim_Reasons on orders.shipper_id = dim_Reasons.shipper_id
-        left join dim_SalesTerritory on orders.shipper_id = dim_SalesTerritory.shipper_id
+        left join dim_CreditCards on SalesOrders.creditCard_id = dim_CreditCards.creditCard_id
+        left join dim_Products on SalesOrderDetails.product_id = dim_Products.product_id
+        left join dim_Reasons on SalesOrders.salesOrder_id = dim_Reasons.salesOrder_id
+        left join dim_SalesTerritories on SalesOrders.territory_id = dim_SalesTerritories.territory_id
     )
 
 select * from final

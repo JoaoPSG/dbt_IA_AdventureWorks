@@ -2,7 +2,7 @@ with source as (
     select * from {{ source( 'AdventureWorks_BQ', 'airbyte_salesorderheader') }}
 ),
 
-SalesOrder as (
+SalesOrders as (
     select
         /* Natural Key */
         salesorderid as salesOrder_id
@@ -12,22 +12,22 @@ SalesOrder as (
         ,territoryid as territory_id
         ,creditcardid as creditCard_id
         /* Columns */
-        ,"status"
+        ,"status" as orderStatus
         ,taxamt
         ,comment
-        ,duedate
+        ,duedate as dueDate
         ,freight
-        ,cast(shipdate as date) as shipDate
+        ,cast(shipdate as timestamp) as shipDate
         ,subtotal
-        ,totaldue
-        ,orderdate
-        ,accountnumber
-        ,revisionnumber
-        ,onlineorderflag
-        ,purcharseordernumber
-        ,creditcardapprovalcode
+        ,totaldue as totalDue
+        ,cast(orderdate as timestamp) as orderDate
+        ,accountnumber as accountNumber
+        ,revisionnumber as revisionNumber
+        ,onlineorderflag as onlineOrderFlag
+        ,purchaseordernumber as purchaseOrderNumber
+        ,creditcardapprovalcode as creditCardApprovalCode
         ,rowguid
-        ,cast(modifieddate as date) as modifiedDate
+        ,cast(modifieddate as timestamp) as modifiedDate
     from source
 )
 

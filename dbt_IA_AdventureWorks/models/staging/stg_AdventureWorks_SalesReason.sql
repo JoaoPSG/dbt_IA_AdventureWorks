@@ -9,7 +9,7 @@ SalesReason as (
         /* Columns */
         ,"name" as reasonName
         ,reasontype as reassonType
-        ,cast(modifieddate as date) as modifiedDate
+        ,cast(modifieddate as timestamp) as modifiedDate
     from source
 )
 

@@ -8,6 +8,14 @@ sources:
     schema: AdventureWorks
 
     tables:
+
+      - name: airbyte_countryregion
+        columns:
+          - name: countryregioncode
+            description: Natural Key
+          - name: name
+          - name: modifieddate
+
       - name: airbyte_creditcard
         columns:
           - name: creditcardid

@@ -1,8 +1,8 @@
 with source as (
-    select * from {{ source( 'AdventureWorks_BQ', 'airbyte_products') }}
+    select * from {{ source( 'AdventureWorks_BQ', 'airbyte_salesorderdetail') }}
 ),
 
-Customer as (
+SalesOrderDetails as (
     select
         /* Natural Key */
         salesorderid as salesOrder_id
@@ -11,13 +11,13 @@ Customer as (
         ,productid as product_id
         ,specialofferid as specialOffer_id
         /* Columns */
-        ,orderqyt as orderQyt
+        ,orderqty as orderQty
         ,unitprice as unitPrice
         ,unitpricediscount as unitPriceDiscount
         ,carriertrackingnumber as carrierTrackingNumber
         ,rowguid
-        ,cast(modifieddate as date) as modifiedDate
+        ,cast(modifieddate as timestamp) as modifiedDate
     from source
 )
 
-select * from Customer
+select * from SalesOrderDetails

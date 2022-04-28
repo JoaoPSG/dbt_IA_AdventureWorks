@@ -1,12 +1,12 @@
 with
-    CreditCard as (
-        select * from {{ ref('stg_AdventureWorks_CreditCard') }} 
+    CreditCards as (
+        select * from {{ ref('stg_AdventureWorks_CreditCards') }} 
     ),
 
     final as (
         select
             /* Surrogate Key */
-            row_number() over (order by creditCard_id) as reason_sk --auto incremental surrogate key
+            {{ dbt_utils.surrogate_key(['creditCard_id']) }} as creditCard_sk --hashed surrogate key
             /* Natural Key */
             ,creditCard_id
             /* Columms */
@@ -14,7 +14,7 @@ with
             ,cardType
             ,expYear
             ,expMonth
-        from CreditCard
+        from CreditCards
     )
 
 select * from final

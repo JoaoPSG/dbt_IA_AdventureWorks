@@ -7,7 +7,7 @@ with
     final as (
         select
             /* Surrogate Key */
-            row_number() over (order by product_id) as product_sk --auto incremental surrogate key
+            {{ dbt_utils.surrogate_key(['product_id']) }} as product_sk --hashed surrogate key
             /* Natural Key */
             ,product_id
             /* Foreing Key */
@@ -21,14 +21,14 @@ with
             ,class
             ,color
             ,style
-            ,"weight"
+            ,productWeight
             ,makeFlag
             ,listPrice
             ,productLine
             ,sellEndDate
             ,reorderPoint
             ,standardCost
-            ,sellstartdatsellStartDate
+            ,sellStartDate
             ,discontinuedDate
             ,safetyStockLevel
             ,daysToManufacture

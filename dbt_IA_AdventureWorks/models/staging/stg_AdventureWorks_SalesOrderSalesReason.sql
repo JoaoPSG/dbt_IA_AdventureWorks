@@ -8,7 +8,7 @@ SalesOrderSalesReason as (
         salesorderid as salesOrder_id
         ,salesreasonid as salesReason_id
         /* Columns */
-        ,cast(modifieddate as date) as modifiedDate 
+        ,cast(modifieddate as timestamp) as modifiedDate 
     from source
 )
 

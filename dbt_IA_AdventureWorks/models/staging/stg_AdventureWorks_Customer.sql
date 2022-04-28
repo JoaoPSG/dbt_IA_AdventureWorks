@@ -9,10 +9,10 @@ Customer as (
         /* Foreing Key */
         ,personid as person_id
         ,territoryid as territory_id
-        -- ,storeid
+        -- ,storeid as store_id
         /* Columns */
         ,rowguid
-        ,cast(modifieddate as date) as modifiedDate
+        ,cast(modifieddate as timestamp) as modifiedDate
     from source
 )
 

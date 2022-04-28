@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: dim_CreditCards
+    columns:
+      - name: creditCard_sk
+        tests:
+          - unique
+          - not_null
+        description: Surrogate Key
+      - name: creditCard_id
+        description: Natural Key
+      - name: cardType
+      - name: cardNumber
+      - name: expYear
+      - name: expMonth
+
+# fazer depois de traduzir nomes

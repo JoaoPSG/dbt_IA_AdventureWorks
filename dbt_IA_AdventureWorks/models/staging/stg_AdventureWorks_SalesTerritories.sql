@@ -1,22 +1,23 @@
 with source as (
-    select * from {{ source( 'AdventureWorks_BQ', 'airbyte_creditcard') }}
+    select * from {{ source( 'AdventureWorks_BQ', 'airbyte_salesterritory') }}
 ),
 
-SalesTerritory as (
+SalesTerritories as (
     select
         /* Natural Key */
         territoryid as territory_id
+        /* Foreing Key */
+        ,countryregioncode as countryRegion_id
         /* Columms */
         ,"name" as territoryName
-        ,group
+        ,"group" as territoryGroup
         ,costytd as costYtd
         ,salesytd as salesYtd
         ,costlastyear as costLastYear
         ,saleslastyear as salesLastYear
-        ,countryregioncode as countryRegionCode
         ,rowguid
-        ,cast(modifieddate as date) as modifiedDate
+        ,cast(modifieddate as timestamp) as modifiedDate
     from source
 )
 
-select * from SalesTerritory
+select * from SalesTerritories

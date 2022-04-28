@@ -1,0 +1,39 @@
+version: 2
+
+models:
+  - name: dim_Products
+    columns:
+      - name: product_sk
+        tests:
+          - unique
+          - not_null
+        description: Surrogate Key
+      - name: product_id
+        description: Natural Key
+
+      - name: productModel_id
+        description: Foreing Key
+      - name: productSubcategory_id
+        description: Foreing Key
+
+      - name: productName
+      - name: productNumber
+      - name: size
+      - name: class
+      - name: color
+      - name: style
+      - name: productWeight
+      - name: makeFlag
+      - name: listPrice
+      - name: productLine
+      - name: sellEndDate
+      - name: reorderPoint
+      - name: standardCost
+      - name: sellStartDate
+      - name: discontinuedDate
+      - name: safetyStockLevel
+      - name: daysToManufacture
+      - name: finishedGoodsFlag
+      - name: sizeUnitMmeasureCode
+      - name: weightUnitMeasureCode
+      - name: rowguid

@@ -2,7 +2,7 @@ with source as (
     select * from {{ source( 'AdventureWorks_BQ', 'airbyte_creditcard') }}
 ),
 
-CreditCard as (
+CreditCards as (
     select
         /* Natural Key */
         creditcardid as creditCard_id
@@ -15,4 +15,4 @@ CreditCard as (
     from source
 )
 
-select * from CreditCard
+select * from CreditCards
