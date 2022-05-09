@@ -8,6 +8,10 @@ with
         select * from {{ ref('stg_AdventureWorks_SalesOrderDetails') }}
     ),
 
+    SalesOrderSalesReason as (
+        select * from {{ ref('stg_AdventureWorks_SalesOrderSalesReason') }} 
+    ),
+
     /* from Dimensions */
     dim_CreditCards as (
         select
@@ -51,6 +55,11 @@ with
             ,reason_sk
             ,territory_sk
             /* Columns */
+            ,orderQty
+            ,unitPrice
+            ,unitPriceDiscount
+            ,carrierTrackingNumber
+
             ,SalesOrders.orderStatus
             ,SalesOrders.taxamt
             ,SalesOrders.comment
@@ -73,7 +82,8 @@ with
 
         left join dim_CreditCards on SalesOrders.creditCard_id = dim_CreditCards.creditCard_id
         left join dim_Products on SalesOrderDetails.product_id = dim_Products.product_id
-        left join dim_Reasons on SalesOrders.salesOrder_id = dim_Reasons.salesOrder_id
+        left join SalesOrderSalesReason on SalesOrders.salesOrder_id = SalesOrderSalesReason.salesOrder_id
+        left join dim_Reasons on SalesOrderSalesReason.salesReason_id = dim_Reasons.salesReason_id
         left join dim_SalesTerritories on SalesOrders.territory_id = dim_SalesTerritories.territory_id
     )
 

@@ -7,10 +7,10 @@ CreditCards as (
         /* Natural Key */
         creditcardid as creditCard_id
         /* Columms */
-        ,cardnumber as cardNumber
+        ,cardnumber as cardNumber --sensible data
         ,cardtype as cardType
-        ,expyear as expYear
-        ,expmonth as expMonth
+        --,expyear as expYear --sensible data
+        --,expmonth as expMonth --sensible data
         ,modifieddate as modifiedDate
     from source
 )
