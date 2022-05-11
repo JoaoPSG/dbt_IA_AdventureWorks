@@ -1,0 +1,5 @@
+
+dbt_IA_AdventureWorks/target/
+dbt_IA_AdventureWorks/dbt_packages/
+dbt_IA_AdventureWorks/logs/
+todo.txt
