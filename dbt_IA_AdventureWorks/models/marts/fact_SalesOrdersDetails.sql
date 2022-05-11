@@ -30,7 +30,7 @@ with
     dim_Reasons as (
         select
             reason_sk
-            ,salesOrder_id
+            ,salesReason_id
         from {{ ref('dim_Reasons') }}
     ),
     
