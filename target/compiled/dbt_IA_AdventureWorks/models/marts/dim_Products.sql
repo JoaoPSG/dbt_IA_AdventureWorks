@@ -1,7 +1,7 @@
 with
      __dbt__cte__stg_AdventureWorks_Products as (
 with source as (
-    select * from `valid-sol-346522`.`AdventureWorks`.`airbyte_product`
+    select * from `snappy-meridian-350123`.`AdventureWorks`.`airbyte_product`
 ),
 
 Products as (
@@ -53,8 +53,6 @@ select * from Products
     string
 ), '') || '-' || coalesce(cast(productSubcategory_id as 
     string
-), '') || '-' || coalesce(cast(rowguid as 
-    string
 ), '') as 
     string
 ))) as product_sk --hashed surrogate key
@@ -92,7 +90,7 @@ select * from Products
     final as (
         select
             /* Surrogate Key */
-            distinct product_sk
+            product_sk
             /* Natural Key */
             ,product_id
             /* Foreing Key */

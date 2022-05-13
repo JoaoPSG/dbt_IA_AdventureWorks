@@ -3,7 +3,7 @@
     
 
 select *
-from `valid-sol-346522`.`AdventureWorks_marts`.`dim_Products`
+from `snappy-meridian-350123`.`AdventureWorks_marts`.`dim_Products`
 where product_sk is null
 
 

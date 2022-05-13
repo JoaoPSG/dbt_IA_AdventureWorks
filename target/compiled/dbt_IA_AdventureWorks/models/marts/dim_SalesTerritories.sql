@@ -1,7 +1,7 @@
 with
      __dbt__cte__stg_AdventureWorks_SalesTerritories as (
 with source as (
-    select * from `valid-sol-346522`.`AdventureWorks`.`airbyte_salesterritory`
+    select * from `snappy-meridian-350123`.`AdventureWorks`.`airbyte_salesterritory`
 ),
 
 SalesTerritories as (
@@ -25,7 +25,7 @@ SalesTerritories as (
 select * from SalesTerritories
 ),  __dbt__cte__stg_AdventureWorks_CountryRegions as (
 with source as (
-    select * from `valid-sol-346522`.`AdventureWorks`.`airbyte_countryregion`
+    select * from `snappy-meridian-350123`.`AdventureWorks`.`airbyte_countryregion`
 ),
 
 CountryRegions as (
@@ -50,21 +50,9 @@ select * from CountryRegions
     final as (
         select
             /* Surrogate Key */
-            distinct to_hex(md5(cast(coalesce(cast(territory_id as 
+            to_hex(md5(cast(coalesce(cast(territory_id as 
     string
 ), '') || '-' || coalesce(cast(CountryRegions.countryRegion_id as 
-    string
-), '') || '-' || coalesce(cast(rowguid as 
-    string
-), '') || '-' || coalesce(cast(countryName as 
-    string
-), '') || '-' || coalesce(cast(costYtd as 
-    string
-), '') || '-' || coalesce(cast(salesYtd as 
-    string
-), '') || '-' || coalesce(cast(costLastYear as 
-    string
-), '') || '-' || coalesce(cast(salesLastYear as 
     string
 ), '') as 
     string

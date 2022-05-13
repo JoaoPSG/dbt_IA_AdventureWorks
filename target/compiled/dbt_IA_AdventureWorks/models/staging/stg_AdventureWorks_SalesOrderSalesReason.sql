@@ -1,5 +1,5 @@
 with source as (
-    select * from `valid-sol-346522`.`AdventureWorks`.`airbyte_salesorderheadersalesreason`
+    select * from `snappy-meridian-350123`.`AdventureWorks`.`airbyte_salesorderheadersalesreason`
 ),
 
 SalesOrderSalesReason as (

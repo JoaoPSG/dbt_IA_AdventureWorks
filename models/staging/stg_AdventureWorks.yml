@@ -1,0 +1,156 @@
+version: 2
+
+models:
+
+  - name: stg_AdventureWorks_CountryRegions
+    columns:
+      - name: countryRegion_id
+        description: Natural Key
+      - name: countryName
+
+      - name: modifiedDate
+
+  - name: stg_AdventureWorks_CreditCards
+    description: "Usada para filtrar pelo tipo de cartão"
+    columns:
+      - name: creditCard_id
+        description: Natural Key
+      - name: cardNumber
+      - name: cardType
+      - name: modifiedDate
+
+
+  - name: stg_AdventureWorks_Customers
+    columns:
+      - name: customer_id
+        description: NK
+      - name: person_id
+        description: FK 
+      - name: territory_id
+        description: FK salesterritory
+
+      - name: rowguid
+      - name: modifiedDate
+
+
+  - name: stg_AdventureWorks_Products
+    columns:
+      - name: product_id
+        description: NK
+
+      - name: productModel_id
+        description: FK
+      - name: productSubcategory_id
+        description: FK
+
+      - name: name
+      - name: productnumber
+    
+      - name: size
+      - name: class
+      - name: color
+      - name: style
+      - name: weight
+      - name: productWeight
+      - name: makeFlag
+      - name: listPrice
+      - name: productLine
+      - name: sellEndDate
+      - name: reorderPoint
+      - name: standardCost
+      - name: sellStartDate
+      - name: discontinuedDate
+      - name: safetyStockLevel
+      - name: daysToManufacture
+      - name: finishedGoodsFlag
+      - name: sizeUnitMmeasureCode
+      - name: weightUnitMeasureCode
+
+      - name: rowguid
+      - name: modifiedDate
+
+
+
+  - name: stg_AdventureWorks_SalesOrderDetails
+    columns:
+      - name: salesOrder_id
+        description: NK
+      - name: salesOrderDetail_id
+        description: NK; FK
+      - name: product_id
+        description: FK
+      - name: specialOffer_id
+        description: FK
+      - name: orderQyt
+      - name: unitPrice
+      - name: unitPriceDiscount
+      - name: carrierTrackingNumber
+
+      - name: rowguid
+      - name: modifiedDate
+
+
+  - name: stg_AdventureWorks_SalesOrders
+    columns:
+      - name: salesOrder_id
+        description: NK
+      - name: salesPerson_id
+        description: FK (dont know if will be used)
+      - name: customer_id
+        description: FK customer
+      - name: territory_id
+        description: FK salesterritory
+      - name: creditCard_id
+        description: FK creditcard
+      - name: orderStatus
+      - name: taxamt
+      - name: comment
+      - name: dueDate
+      - name: freight
+      - name: shipDate
+      - name: subtotal
+      - name: totaldue
+      - name: orderDate
+      - name: accountNumber
+      - name: revisionNumber
+      - name: onlineOrderFlag
+      - name: purcharseOrderNumber
+      - name: creditCardApprovalCode
+
+      - name: rowguid
+      - name: modifiedDate
+
+
+  - name: stg_AdventureWorks_SalesOrderSalesReason
+    columns:
+      - name: salesOrder_id
+        description: NK; FK
+      - name: salesreason_id
+        description: NK; FK
+      - name: modifiedDate
+
+  - name: stg_AdventureWorks_SalesReasons
+    columns:
+      - name: salesreason_id
+        description: NK
+      - name: reasonName
+      - name: reasonType
+      - name: modifiedDate
+
+  - name: stg_AdventureWorks_SalesTerritories
+    columns:
+      - name: territory_id
+        description: NK
+      - name: countryRegion_id
+        description: FK
+      - name: territoryName
+      - name: territoryGroup
+      - name: costYtd
+      - name: salesYtd
+      - name: costLastYear
+      - name: salesLastYear
+
+      - name: rowguid
+      - name: modifiedDate
+
+

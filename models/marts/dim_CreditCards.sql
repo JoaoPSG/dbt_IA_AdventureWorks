@@ -6,7 +6,7 @@ with
     final as (
         select
             /* Surrogate Key */
-            distinct {{ dbt_utils.surrogate_key(['creditCard_id', 'cardNumber', 'cardType']) }} as creditCard_sk --hashed surrogate key
+            {{ dbt_utils.surrogate_key(['creditCard_id', 'cardNumber']) }} as creditCard_sk --hashed surrogate key
             /* Natural Key */
             ,creditCard_id
             /* Columms */

@@ -10,7 +10,7 @@ with
     final as (
         select
             /* Surrogate Key */
-            distinct {{ dbt_utils.surrogate_key(['territory_id', 'CountryRegions.countryRegion_id', 'rowguid', 'countryName', 'costYtd', 'salesYtd', 'costLastYear', 'salesLastYear']) }} as territory_sk --hashed surrogate key
+            {{ dbt_utils.surrogate_key(['territory_id', 'CountryRegions.countryRegion_id']) }} as territory_sk --hashed surrogate key
             /* Natural Key */
             ,territory_id
             /* Foreing Key */

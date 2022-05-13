@@ -1,6 +1,6 @@
 
 
-  create or replace table `valid-sol-346522`.`AdventureWorks_marts`.`fact_SalesOrdersDetails`
+  create or replace table `snappy-meridian-350123`.`AdventureWorks_marts`.`fact_SalesOrdersDetails`
   
   
   OPTIONS()
@@ -8,7 +8,7 @@
     with
      __dbt__cte__stg_AdventureWorks_SalesOrders as (
 with source as (
-    select * from `valid-sol-346522`.`AdventureWorks`.`airbyte_salesorderheader`
+    select * from `snappy-meridian-350123`.`AdventureWorks`.`airbyte_salesorderheader`
 ),
 
 SalesOrders as (
@@ -43,7 +43,7 @@ SalesOrders as (
 select * from SalesOrders
 ),  __dbt__cte__stg_AdventureWorks_SalesOrderDetails as (
 with source as (
-    select * from `valid-sol-346522`.`AdventureWorks`.`airbyte_salesorderdetail`
+    select * from `snappy-meridian-350123`.`AdventureWorks`.`airbyte_salesorderdetail`
 ),
 
 SalesOrderDetails as (
@@ -67,7 +67,7 @@ SalesOrderDetails as (
 select * from SalesOrderDetails
 ),  __dbt__cte__stg_AdventureWorks_SalesOrderSalesReason as (
 with source as (
-    select * from `valid-sol-346522`.`AdventureWorks`.`airbyte_salesorderheadersalesreason`
+    select * from `snappy-meridian-350123`.`AdventureWorks`.`airbyte_salesorderheadersalesreason`
 ),
 
 SalesOrderSalesReason as (
@@ -99,28 +99,28 @@ select * from SalesOrderSalesReason
         select
             creditCard_sk
             ,creditCard_id
-        from `valid-sol-346522`.`AdventureWorks_marts`.`dim_CreditCards`
+        from `snappy-meridian-350123`.`AdventureWorks_marts`.`dim_CreditCards`
     ),
 
     dim_Products as (
         select
             product_sk
             ,product_id        
-        from `valid-sol-346522`.`AdventureWorks_marts`.`dim_Products`
+        from `snappy-meridian-350123`.`AdventureWorks_marts`.`dim_Products`
     ),
 
     dim_Reasons as (
         select
             reason_sk
             ,salesReason_id
-        from `valid-sol-346522`.`AdventureWorks_marts`.`dim_Reasons`
+        from `snappy-meridian-350123`.`AdventureWorks_marts`.`dim_Reasons`
     ),
     
     dim_SalesTerritories as (
         select
             territory_sk
             ,territory_id
-        from `valid-sol-346522`.`AdventureWorks_marts`.`dim_SalesTerritories`
+        from `snappy-meridian-350123`.`AdventureWorks_marts`.`dim_SalesTerritories`
     ),
 
 

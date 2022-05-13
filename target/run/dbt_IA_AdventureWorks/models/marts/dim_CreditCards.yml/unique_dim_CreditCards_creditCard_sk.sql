@@ -10,7 +10,7 @@ select
 with dbt_test__target as (
   
   select creditCard_sk as unique_field
-  from `valid-sol-346522`.`AdventureWorks_marts`.`dim_CreditCards`
+  from `snappy-meridian-350123`.`AdventureWorks_marts`.`dim_CreditCards`
   where creditCard_sk is not null
   
 )

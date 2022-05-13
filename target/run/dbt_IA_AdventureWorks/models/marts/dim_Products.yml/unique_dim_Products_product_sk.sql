@@ -10,7 +10,7 @@ select
 with dbt_test__target as (
   
   select product_sk as unique_field
-  from `valid-sol-346522`.`AdventureWorks_marts`.`dim_Products`
+  from `snappy-meridian-350123`.`AdventureWorks_marts`.`dim_Products`
   where product_sk is not null
   
 )

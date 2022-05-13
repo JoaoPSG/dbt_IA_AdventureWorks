@@ -4,7 +4,7 @@ version: 2
 sources:
   - name: AdventureWorks_BQ
     description: "AdventureWorks DW on Big Query; Extracted from Indicium postgres with Airbyte"
-    database: valid-sol-346522
+    database: snappy-meridian-350123
     schema: AdventureWorks
 
     tables:

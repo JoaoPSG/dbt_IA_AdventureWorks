@@ -1,6 +1,6 @@
 
 
-  create or replace table `valid-sol-346522`.`AdventureWorks_marts`.`dim_CreditCards`
+  create or replace table `snappy-meridian-350123`.`AdventureWorks_marts`.`dim_CreditCards`
   
   
   OPTIONS()
@@ -8,7 +8,7 @@
     with
      __dbt__cte__stg_AdventureWorks_CreditCards as (
 with source as (
-    select * from `valid-sol-346522`.`AdventureWorks`.`airbyte_creditcard`
+    select * from `snappy-meridian-350123`.`AdventureWorks`.`airbyte_creditcard`
 ),
 
 CreditCards as (
@@ -32,11 +32,7 @@ select * from CreditCards
     final as (
         select
             /* Surrogate Key */
-            distinct to_hex(md5(cast(coalesce(cast(creditCard_id as 
-    string
-), '') || '-' || coalesce(cast(cardNumber as 
-    string
-), '') || '-' || coalesce(cast(cardType as 
+            to_hex(md5(cast(coalesce(cast(creditCard_id as 
     string
 ), '') as 
     string

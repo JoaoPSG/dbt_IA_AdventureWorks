@@ -1,7 +1,7 @@
 with
      __dbt__cte__stg_AdventureWorks_SalesReason as (
 with source as (
-    select * from `valid-sol-346522`.`AdventureWorks`.`airbyte_salesreason`
+    select * from `snappy-meridian-350123`.`AdventureWorks`.`airbyte_salesreason`
 ),
 
 SalesReason as (
@@ -24,10 +24,6 @@ select * from SalesReason
         select
             /* Surrogate Key */
             distinct to_hex(md5(cast(coalesce(cast(salesReason_id as 
-    string
-), '') || '-' || coalesce(cast(reasonName as 
-    string
-), '') || '-' || coalesce(cast(reassonType as 
     string
 ), '') as 
     string
