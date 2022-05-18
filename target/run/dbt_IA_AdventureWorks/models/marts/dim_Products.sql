@@ -1,11 +1,8 @@
 
 
-  create or replace table `snappy-meridian-350123`.`AdventureWorks_marts`.`dim_Products`
-  
-  
+  create or replace view `snappy-meridian-350123`.`AdventureWorks_marts`.`dim_Products`
   OPTIONS()
-  as (
-    with
+  as with
      __dbt__cte__stg_AdventureWorks_Products as (
 with source as (
     select * from `snappy-meridian-350123`.`AdventureWorks`.`airbyte_product`
@@ -19,14 +16,14 @@ Products as (
         ,productmodelid as productModel_id
         ,productsubcategoryid as productSubcategory_id
         /* Columns */
-        ,"name" as productName
+        ,source.name as productName
         ,productnumber as productNumber
     
         ,size
         ,class
         ,color
         ,style
-        ,"weight" as productWeight
+        ,source.weight as productWeight
         ,makeflag as makeFlag
         ,listprice as listPrice
         ,productline as productLine
@@ -51,7 +48,7 @@ select * from Products
     ),
 
 
-    surrogate as (
+    final as (
         select
             /* Surrogate Key */
             to_hex(md5(cast(coalesce(cast(product_id as 
@@ -90,45 +87,8 @@ select * from Products
             ,finishedGoodsFlag
             ,sizeUnitMmeasureCode
             ,weightUnitMeasureCode
-            ,rowguid
         from Products
-    ),
-
-    final as (
-        select
-            /* Surrogate Key */
-            product_sk
-            /* Natural Key */
-            ,product_id
-            /* Foreing Key */
-            ,productModel_id
-            ,productSubcategory_id
-            /* Columns */
-            ,productName
-            ,productNumber
-
-            ,size
-            ,class
-            ,color
-            ,style
-            ,productWeight
-            ,makeFlag
-            ,listPrice
-            ,productLine
-            ,sellEndDate
-            ,reorderPoint
-            ,standardCost
-            ,sellStartDate
-            ,discontinuedDate
-            ,safetyStockLevel
-            ,daysToManufacture
-            ,finishedGoodsFlag
-            ,sizeUnitMmeasureCode
-            ,weightUnitMeasureCode
-
-        from surrogate
     )
 
-select * from final
-  );
-  
+select * from final;
+

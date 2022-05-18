@@ -1,6 +1,6 @@
 with
-    SalesReason as (
-        select * from {{ ref('stg_AdventureWorks_SalesReason') }} 
+    SalesReasons as (
+        select * from {{ ref('stg_AdventureWorks_SalesReasons') }} 
     ),
 
     final as (
@@ -12,7 +12,7 @@ with
             /* Columms */
             ,reasonName
             ,reassonType
-        from SalesReason
+        from SalesReasons
     )
 
 select * from final

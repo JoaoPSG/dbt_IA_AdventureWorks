@@ -1,11 +1,8 @@
 
 
-  create or replace table `snappy-meridian-350123`.`AdventureWorks_marts`.`dim_CreditCards`
-  
-  
+  create or replace view `snappy-meridian-350123`.`AdventureWorks_marts`.`dim_CreditCards`
   OPTIONS()
-  as (
-    with
+  as with
      __dbt__cte__stg_AdventureWorks_CreditCards as (
 with source as (
     select * from `snappy-meridian-350123`.`AdventureWorks`.`airbyte_creditcard`
@@ -34,6 +31,8 @@ select * from CreditCards
             /* Surrogate Key */
             to_hex(md5(cast(coalesce(cast(creditCard_id as 
     string
+), '') || '-' || coalesce(cast(cardNumber as 
+    string
 ), '') as 
     string
 ))) as creditCard_sk --hashed surrogate key
@@ -44,6 +43,5 @@ select * from CreditCards
         from CreditCards
     )
 
-select * from final
-  );
-  
+select * from final;
+

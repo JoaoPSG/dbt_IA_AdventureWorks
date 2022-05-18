@@ -1,11 +1,8 @@
 
 
-  create or replace table `snappy-meridian-350123`.`AdventureWorks_marts`.`fact_SalesOrdersDetails`
-  
-  
+  create or replace view `snappy-meridian-350123`.`AdventureWorks_marts`.`fact_SalesOrdersDetails`
   OPTIONS()
-  as (
-    with
+  as with
      __dbt__cte__stg_AdventureWorks_SalesOrders as (
 with source as (
     select * from `snappy-meridian-350123`.`AdventureWorks`.`airbyte_salesorderheader`
@@ -20,8 +17,9 @@ SalesOrders as (
         ,customerid as customer_id
         ,territoryid as territory_id
         ,creditcardid as creditCard_id
+        ,billtoaddressid as billToAddress_id
         /* Columns */
-        ,"status" as orderStatus
+        ,source.status as orderStatus
         ,taxamt
         ,comment
         ,duedate as dueDate
@@ -95,6 +93,14 @@ select * from SalesOrderSalesReason
     ),
 
     /* from Dimensions */
+    dim_Addresses as (
+        select
+            address_sk
+            ,address_id
+        from `snappy-meridian-350123`.`AdventureWorks_marts`.`dim_Addresses`
+    ),
+
+
     dim_CreditCards as (
         select
             creditCard_sk
@@ -123,6 +129,13 @@ select * from SalesOrderSalesReason
         from `snappy-meridian-350123`.`AdventureWorks_marts`.`dim_SalesTerritories`
     ),
 
+    dim_Customers as (
+        select
+            customer_sk
+            ,customer_id
+        from `snappy-meridian-350123`.`AdventureWorks_marts`.`dim_Customers`
+    ),
+
 
     final as (
         select
@@ -142,6 +155,8 @@ select * from SalesOrderSalesReason
             ,product_sk
             ,reason_sk
             ,territory_sk
+            ,customer_sk
+            ,billToAddress_id
             /* Columns */
             ,orderQty
             ,unitPrice
@@ -173,8 +188,8 @@ select * from SalesOrderSalesReason
         left join SalesOrderSalesReason on SalesOrders.salesOrder_id = SalesOrderSalesReason.salesOrder_id
         left join dim_Reasons on SalesOrderSalesReason.salesReason_id = dim_Reasons.salesReason_id
         left join dim_SalesTerritories on SalesOrders.territory_id = dim_SalesTerritories.territory_id
+        left join dim_Customers on SalesOrders.customer_id = dim_Customers.customer_id
     )
 
-select * from final
-  );
-  
+select * from final;
+

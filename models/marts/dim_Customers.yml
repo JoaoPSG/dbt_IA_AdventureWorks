@@ -1,0 +1,19 @@
+version: 2
+
+models:
+  - name: dim_Customers
+    columns:
+      - name: customer_sk
+        tests:
+          - unique
+          - not_null
+        description: Surrogate Key
+      - name: customer_id
+        description: Natural Key
+      - name: person_id
+        description: Foreing Key
+      - name: territory_id
+        description: Foreing Key
+  
+      - name: rowguid
+      - name: modifiedDate

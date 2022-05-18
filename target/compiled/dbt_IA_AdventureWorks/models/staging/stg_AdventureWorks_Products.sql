@@ -10,14 +10,14 @@ Products as (
         ,productmodelid as productModel_id
         ,productsubcategoryid as productSubcategory_id
         /* Columns */
-        ,"name" as productName
+        ,source.name as productName
         ,productnumber as productNumber
     
         ,size
         ,class
         ,color
         ,style
-        ,"weight" as productWeight
+        ,source.weight as productWeight
         ,makeflag as makeFlag
         ,listprice as listPrice
         ,productline as productLine

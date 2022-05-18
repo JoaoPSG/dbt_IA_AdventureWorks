@@ -1,5 +1,5 @@
 with
-     __dbt__cte__stg_AdventureWorks_SalesReason as (
+     __dbt__cte__stg_AdventureWorks_SalesReasons as (
 with source as (
     select * from `snappy-meridian-350123`.`AdventureWorks`.`airbyte_salesreason`
 ),
@@ -9,15 +9,15 @@ SalesReason as (
         /* Natural Key */
         salesreasonid as salesReason_id
         /* Columns */
-        ,"name" as reasonName
+        ,source.name as reasonName
         ,reasontype as reassonType
         ,cast(modifieddate as timestamp) as modifiedDate
     from source
 )
 
 select * from SalesReason
-),SalesReason as (
-        select * from __dbt__cte__stg_AdventureWorks_SalesReason 
+),SalesReasons as (
+        select * from __dbt__cte__stg_AdventureWorks_SalesReasons 
     ),
 
     final as (
@@ -33,7 +33,7 @@ select * from SalesReason
             /* Columms */
             ,reasonName
             ,reassonType
-        from SalesReason
+        from SalesReasons
     )
 
 select * from final

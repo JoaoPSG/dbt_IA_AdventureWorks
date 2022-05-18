@@ -1,5 +1,5 @@
 with source as (
-    select * from {{ source( 'AdventureWorks_BQ', 'airbyte_salesreason') }}
+    select * from `snappy-meridian-350123`.`AdventureWorks`.`airbyte_salesreason`
 ),
 
 SalesReason as (
@@ -7,7 +7,7 @@ SalesReason as (
         /* Natural Key */
         salesreasonid as salesReason_id
         /* Columns */
-        ,"name" as reasonName
+        ,source.name as reasonName
         ,reasontype as reassonType
         ,cast(modifieddate as timestamp) as modifiedDate
     from source

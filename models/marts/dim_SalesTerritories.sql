@@ -22,7 +22,6 @@ with
             ,salesYtd
             ,costLastYear
             ,salesLastYear
-            ,rowguid
             ,countryName
         from SalesTerritories
 

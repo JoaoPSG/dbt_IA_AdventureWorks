@@ -153,4 +153,49 @@ models:
       - name: rowguid
       - name: modifiedDate
 
+  - name: stg_AdventureWorks_Persons
+    columns:
+      - name: persons_id
+        description: NK       
+      - name: personType
+      - name: title
+      - name: suffix
+      - name: firstName
+      - name: middleName
+      - name: lastName
+      - name: nameStyle
+      - name: emailPromotion
+      - name: additionalContactInfo
+        
+      - name: rowguid
+      - name: modifiedDate
 
+  - name: stg_AdventureWorks_Addresses
+    columns:
+      - name: address_id
+        description: NK
+      - name: stateProvince_id 
+        description: FK
+      - name: postalCode
+      - name: addressLine1
+      - name: addressLine2
+      - name: city
+      - name: spatialLocation
+
+      - name: rowguid
+      - name: modifiedDate
+
+  - name: stg_AdventureWorks_StateProvinces
+    columns:
+      - name: stateProvince_id
+        desccription: NK
+      - name: territory_id 
+        description: FK
+      - name: countryRegion_id
+        description: FK
+      - name: provinceName
+      - name: stateProvinceCode
+      - name: isOnlyStateProvinceFlag
+
+      - name: rowguid
+      - name: modifieddate as modifiedDate

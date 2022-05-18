@@ -11,8 +11,9 @@ SalesOrders as (
         ,customerid as customer_id
         ,territoryid as territory_id
         ,creditcardid as creditCard_id
+        ,billtoaddressid as billToAddress_id
         /* Columns */
-        ,"status" as orderStatus
+        ,source.status as orderStatus
         ,taxamt
         ,comment
         ,duedate as dueDate

@@ -1,0 +1,19 @@
+version: 2
+
+models:
+  - name: dim_Addresses
+    columns:
+      - name: address_sk
+        description: SK
+      - name: address_id
+        description: NK 
+      - name: postalCode
+      - name: addressLine1
+      - name: addressLine2
+      - name: city
+      - name: spatialLocation
+      - name: provinceName
+      - name: countryRegionCode
+      - name: stateProvinceCode
+      - name: isOnlyStateProvinceFlag
+      - name: countryName

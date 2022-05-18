@@ -27,6 +27,8 @@ select * from CreditCards
             /* Surrogate Key */
             to_hex(md5(cast(coalesce(cast(creditCard_id as 
     string
+), '') || '-' || coalesce(cast(cardNumber as 
+    string
 ), '') as 
     string
 ))) as creditCard_sk --hashed surrogate key

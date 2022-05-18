@@ -15,8 +15,8 @@ SalesTerritories as (
         /* Foreing Key */
         ,countryregioncode as countryRegion_id
         /* Columms */
-        ,"name" as territoryName
-        ,"group" as territoryGroup
+        ,source.name as territoryName
+        ,source.group as territoryGroup
         ,costytd as costYtd
         ,salesytd as salesYtd
         ,costlastyear as costLastYear
@@ -37,7 +37,7 @@ CountryRegions as (
         /* Natural Key */
         countryregioncode as countryRegion_id
         /* Columms */
-        ,"name" as countryName
+        ,source.name as countryName
         ,modifieddate as modifiedDate
     from source
 )
@@ -72,7 +72,6 @@ select * from CountryRegions
             ,salesYtd
             ,costLastYear
             ,salesLastYear
-            ,rowguid
             ,countryName
         from SalesTerritories
 

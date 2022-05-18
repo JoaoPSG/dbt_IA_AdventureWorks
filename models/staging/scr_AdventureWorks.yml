@@ -112,7 +112,7 @@ sources:
           - name: shipmethodid
             description: FK (not used)
           - name: billtoaddressid
-            description: FK (not used?)
+            description: FK
           - name: shiptoaddressid
             description: FK (not used?)
           - name: status
@@ -161,5 +161,48 @@ sources:
           - name: salesytd
           - name: costlastyear
           - name: saleslastyear
+          - name: rowguid
+          - name: modifieddate
+
+      - name: airbyte_person
+        columns:
+          - name: businessentityid
+            description: NK
+          - name: title
+          - name: suffix
+          - name: persontype
+          - name: firstname
+          - name: middlename
+          - name: lastname
+          - name: namestyle
+          - name: demographics
+            description: not useful
+          - name: emailpromotion
+          - name: additionalcontactinfo
+          - name: rowguid
+          - name: modifieddate
+
+      - name: airbyte_address
+        columns:
+          - name: addressid
+            description: NK
+          - name: stateprovinceid
+            description: FK
+          - name: postalcode
+          - name: addressline1
+          - name: addressline2
+          - name: city
+          - name: spatiallocation
+          - name: rowguid
+          - name: modifieddate
+
+      - name: airbyte_stateprovince
+        columns:
+          - name: name
+          - name: territoryid
+          - name: stateprovinceid
+          - name: countryregioncode
+          - name: stateprovincecode
+          - name: isonlystateprovinceflag
           - name: rowguid
           - name: modifieddate

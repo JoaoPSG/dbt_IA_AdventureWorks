@@ -35,7 +35,6 @@ with
             ,finishedGoodsFlag
             ,sizeUnitMmeasureCode
             ,weightUnitMeasureCode
-            ,rowguid
         from Products
     )
 
