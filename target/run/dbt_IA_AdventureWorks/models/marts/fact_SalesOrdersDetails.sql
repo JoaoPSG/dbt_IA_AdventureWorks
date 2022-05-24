@@ -47,8 +47,8 @@ with source as (
 SalesOrderDetails as (
     select
         /* Natural Key */
-        salesorderid as salesOrder_id
-        ,salesorderdetailid as salesOrderDetail_id
+        salesorderdetailid as salesOrderDetail_id
+        ,salesorderid as salesOrder_id
         /* Foreing Key */
         ,productid as product_id
         ,specialofferid as specialOffer_id
@@ -118,7 +118,7 @@ select * from SalesOrderSalesReason
     dim_Reasons as (
         select
             reason_sk
-            ,salesReason_id
+            ,salesOrder_id
         from `snappy-meridian-350123`.`AdventureWorks_marts`.`dim_Reasons`
     ),
     
@@ -153,7 +153,7 @@ select * from SalesOrderSalesReason
             /* Foreing Key */
             ,creditCard_sk
             ,product_sk
-            ,reason_sk
+            -- ,reason_sk
             ,territory_sk
             ,customer_sk
             ,billToAddress_id
@@ -177,16 +177,15 @@ select * from SalesOrderSalesReason
             ,SalesOrders.onlineOrderFlag
             ,SalesOrders.purchaseOrderNumber
             ,SalesOrders.creditCardApprovalCode
-            ,SalesOrders.rowguid
-            ,SalesOrders.modifiedDate
+            --,SalesOrders.rowguid
+            --,SalesOrders.modifiedDate
         from SalesOrderDetails
 
         left join SalesOrders on SalesOrderDetails.salesOrder_id = SalesOrders.salesOrder_id
 
         left join dim_CreditCards on SalesOrders.creditCard_id = dim_CreditCards.creditCard_id
         left join dim_Products on SalesOrderDetails.product_id = dim_Products.product_id
-        left join SalesOrderSalesReason on SalesOrders.salesOrder_id = SalesOrderSalesReason.salesOrder_id
-        left join dim_Reasons on SalesOrderSalesReason.salesReason_id = dim_Reasons.salesReason_id
+        left join dim_Reasons on SalesOrders.salesOrder_id = dim_Reasons.salesOrder_id
         left join dim_SalesTerritories on SalesOrders.territory_id = dim_SalesTerritories.territory_id
         left join dim_Customers on SalesOrders.customer_id = dim_Customers.customer_id
     )

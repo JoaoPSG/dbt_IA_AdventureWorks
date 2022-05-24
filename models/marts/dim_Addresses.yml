@@ -5,6 +5,9 @@ models:
     columns:
       - name: address_sk
         description: SK
+        tests:
+          - not_null
+          - unique
       - name: address_id
         description: NK 
       - name: postalCode

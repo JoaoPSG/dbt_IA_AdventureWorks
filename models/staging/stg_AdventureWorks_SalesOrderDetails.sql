@@ -5,8 +5,8 @@ with source as (
 SalesOrderDetails as (
     select
         /* Natural Key */
-        salesorderid as salesOrder_id
-        ,salesorderdetailid as salesOrderDetail_id
+        salesorderdetailid as salesOrderDetail_id
+        ,salesorderid as salesOrder_id
         /* Foreing Key */
         ,productid as product_id
         ,specialofferid as specialOffer_id

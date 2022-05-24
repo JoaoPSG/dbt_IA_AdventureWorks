@@ -1,0 +1,70 @@
+version: 2
+
+models:
+  - name: fact_SalesOrdersDetails
+    columns:
+      - name: salesOrdersDetais_sk
+        description: Surrogate Key
+        tests:
+          - unique
+          - not_null
+      - name: salesOrder_id
+        description: NK
+      - name: salesOrderDetail_id
+        tests:
+          - unique
+        description: NK
+      - name: creditCard_sk
+        description: FK
+        tests:
+          - relationships:
+              to: ref('dim_CreditCards')
+              field: creditCard_sk
+      - name: product_sk
+        description: FK
+        tests:
+          - relationships:
+              to: ref('dim_Products')
+              field: product_sk
+      - name: reason_sk
+        description: FK
+        tests:
+          - relationships:
+              to: ref('dim_Reasons')
+              field: reason_sk
+      - name: territory_sk
+        description: FK
+        # tests:
+          # - relationships:
+          #     to: ref('dim_Reasons')
+          #     field: reason_sk
+      - name: customer_sk
+        description: FK
+        tests:
+          - relationships:
+              to: ref('dim_Customers')
+              field: customer_sk
+      - name: billToAddress_id
+        description: FK
+      
+      - name: orderQty
+      - name: unitPrice
+      - name: unitPriceDiscount
+      - name: carrierTrackingNumber
+
+      - name: orderStatus
+      - name: taxamt
+      - name: comment
+      - name: dueDate
+      - name: freight
+      - name: shipDate
+      - name: subtotal
+      - name: totalDue
+      - name: orderDate
+      - name: accountNumber
+      - name: revisionNumber
+      - name: onlineOrderFlag
+      - name: purchaseOrderNumber
+      - name: creditCardApprovalCode
+      # - name: rowguid
+      # - name: modifiedDate

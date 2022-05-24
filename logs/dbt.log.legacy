@@ -775,3 +775,224 @@
 2022-05-18 13:22:46.543864 (ThreadPoolExecutor-0_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
 2022-05-18 13:32:46.443289 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
 2022-05-18 13:32:47.617853 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-24 02:32:12.488310 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 02:32:12.505311 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 02:32:12.511310 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 02:32:12.513310 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 02:32:12.526281 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 02:32:12.530281 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 02:32:12.535280 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 02:32:12.537280 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 02:32:12.545280 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 02:32:12.548280 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 02:32:12.561320 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 02:32:12.564281 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 02:32:12.577314 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 02:32:12.577314 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 02:32:12.772314 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-24 02:32:12.828692 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-24 02:32:18.842667 (MainThread): unclosed <ssl.SSLSocket fd=2288, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 54991, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 02:33:19.144745 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 02:33:19.147730 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 02:33:19.160728 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 02:33:19.161730 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 02:33:19.193693 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-24 02:33:19.833283 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-24 02:33:22.519685 (Thread-1): unclosed <ssl.SSLSocket fd=2364, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 55016, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 02:33:22.519685 (Thread-1): unclosed <ssl.SSLSocket fd=2360, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 55015, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 02:33:25.234522 (Thread-2): unclosed <ssl.SSLSocket fd=2488, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 55022, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 02:33:25.285082 (Thread-2): unclosed <ssl.SSLSocket fd=2444, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 55019, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 02:33:25.286094 (Thread-2): unclosed <ssl.SSLSocket fd=2448, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 55020, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 02:33:26.621491 (MainThread): unclosed <ssl.SSLSocket fd=2380, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 55026, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 02:33:35.764026 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-24 02:33:35.779026 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-24 02:33:42.161430 (MainThread): unclosed <ssl.SSLSocket fd=2216, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 55034, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 02:46:46.127816 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 02:46:46.131831 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 02:46:46.168816 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-24 02:46:46.184818 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-24 02:50:26.309250 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 02:50:26.342249 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-24 02:50:26.357249 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-24 02:50:29.040004 (MainThread): unclosed <ssl.SSLSocket fd=996, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 56002, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 02:50:29.041013 (MainThread): unclosed <ssl.SSLSocket fd=2172, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 56004, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 02:51:22.690067 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 02:51:22.706065 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 02:51:22.706065 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 02:51:22.749066 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-24 02:51:22.767066 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-24 02:51:26.432508 (MainThread): unclosed <ssl.SSLSocket fd=2300, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 56023, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 02:58:08.608030 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 02:58:08.634030 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 02:58:08.635031 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 02:58:08.677030 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-24 02:58:09.899741 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-24 02:58:56.932948 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-24 02:58:57.569728 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-24 02:59:28.230315 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 02:59:28.243315 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 02:59:28.243315 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 02:59:28.276327 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-24 02:59:28.944027 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-24 02:59:31.006491 (MainThread): unclosed <ssl.SSLSocket fd=2304, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 56135, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 02:59:38.975185 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-24 02:59:38.991182 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-24 02:59:42.159763 (MainThread): unclosed <ssl.SSLSocket fd=2232, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 56145, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 03:00:34.965716 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:00:34.981716 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:00:34.981716 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:00:35.020714 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-24 03:00:35.036716 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-24 03:00:38.146234 (MainThread): unclosed <ssl.SSLSocket fd=2312, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 56160, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 03:03:48.050997 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:03:48.063844 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:03:48.064841 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:03:48.096815 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-24 03:03:48.112847 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-24 03:03:51.233361 (MainThread): unclosed <ssl.SSLSocket fd=2296, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 56251, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 03:04:12.926969 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:04:12.942973 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:04:12.942973 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:04:12.987969 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-24 03:04:13.006994 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-24 03:04:16.356760 (MainThread): unclosed <ssl.SSLSocket fd=2288, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 56265, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 03:04:43.221983 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-24 03:04:44.012269 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-24 03:04:45.988898 (MainThread): unclosed <ssl.SSLSocket fd=2228, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 56281, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 03:04:55.417763 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-24 03:04:55.437762 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-24 03:04:59.159167 (MainThread): unclosed <ssl.SSLSocket fd=2212, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 56289, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 03:06:38.446288 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-24 03:06:38.462274 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-24 03:06:41.010058 (Thread-1): unclosed <ssl.SSLSocket fd=2224, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 56317, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 03:08:03.094265 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:08:03.109265 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:08:03.110265 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:08:03.149264 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-24 03:08:03.763263 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-24 03:08:15.550107 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-24 03:08:15.566108 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-24 03:08:18.640236 (MainThread): unclosed <ssl.SSLSocket fd=2216, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 56353, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 03:11:41.488292 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:11:41.495292 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:11:41.498292 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:11:41.500294 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:11:41.531286 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-24 03:11:41.548257 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-24 03:11:44.249377 (Thread-1): unclosed <ssl.SSLSocket fd=2300, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 56400, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 03:11:45.940819 (MainThread): unclosed <ssl.SSLSocket fd=2320, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 56402, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 03:18:11.631929 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:18:11.634928 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:18:11.637924 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:18:11.642924 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:18:11.645924 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:18:11.690922 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-24 03:18:11.706940 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-24 03:18:14.641042 (Thread-2): unclosed <ssl.SSLSocket fd=2284, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 51948, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 03:18:17.017993 (MainThread): unclosed <ssl.SSLSocket fd=2320, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 51951, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 03:18:54.139792 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:18:54.142792 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:18:54.144793 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:18:54.175763 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-24 03:18:54.766128 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-24 03:19:06.140524 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-24 03:19:06.157528 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-24 03:19:09.457831 (Thread-1): unclosed <ssl.SSLSocket fd=2228, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 51979, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 03:24:44.845433 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:24:44.849436 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:24:44.851437 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:24:44.883427 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-24 03:24:45.995734 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-24 03:24:56.533626 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-24 03:24:56.549669 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-24 03:24:59.825911 (Thread-2): unclosed <ssl.SSLSocket fd=2228, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 65282, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 03:25:41.429479 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:25:41.432488 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:25:41.435489 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:25:41.469456 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-24 03:25:42.112121 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-24 03:25:50.785055 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-24 03:25:50.802093 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-24 03:25:53.800438 (Thread-1): unclosed <ssl.SSLSocket fd=2208, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 65309, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 03:28:01.547694 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:28:01.549693 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:28:01.581725 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-24 03:28:02.200219 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-24 03:28:34.884422 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:28:34.888418 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:28:34.921398 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-24 03:28:35.533057 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-24 03:28:37.551071 (MainThread): unclosed <ssl.SSLSocket fd=2252, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 65359, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 03:28:54.072053 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-24 03:28:54.087017 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-24 03:28:56.850957 (MainThread): unclosed <ssl.SSLSocket fd=2216, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 65369, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 03:28:56.850957 (MainThread): unclosed <ssl.SSLSocket fd=2228, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 65370, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 03:30:13.205655 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:30:13.208654 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:30:13.210654 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:30:13.241654 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-24 03:30:14.342047 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-24 03:33:01.174057 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:33:01.177021 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:33:01.180024 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:33:01.218025 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-24 03:33:01.849629 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-24 03:33:27.610566 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-24 03:33:27.625605 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-24 03:33:30.989322 (Thread-2): unclosed <ssl.SSLSocket fd=2224, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 65447, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 03:34:05.919824 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:34:05.922830 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:34:05.924824 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:34:05.961847 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-24 03:34:06.557824 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-24 03:34:18.094316 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-24 03:34:18.111390 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-24 03:34:21.578734 (Thread-2): unclosed <ssl.SSLSocket fd=2232, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 65474, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 03:35:19.720523 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-24 03:35:20.776766 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-24 03:35:22.756020 (Thread-1): unclosed <ssl.SSLSocket fd=2312, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 65501, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 03:35:23.994061 (Thread-2): unclosed <ssl.SSLSocket fd=2356, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 65505, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 03:35:23.995023 (Thread-2): unclosed <ssl.SSLSocket fd=820, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 65506, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 03:35:26.592906 (MainThread): unclosed <ssl.SSLSocket fd=2376, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 65512, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 03:35:26.598943 (MainThread): unclosed <ssl.SSLSocket fd=2108, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 65509, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 03:35:26.598943 (MainThread): unclosed <ssl.SSLSocket fd=2356, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 65510, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 03:35:38.582541 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-24 03:35:38.601544 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-24 03:35:41.048800 (Thread-2): unclosed <ssl.SSLSocket fd=2180, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 65521, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 03:35:44.474122 (Thread-1): unclosed <ssl.SSLSocket fd=1996, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 65531, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 03:35:44.478118 (Thread-1): unclosed <ssl.SSLSocket fd=2280, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 65527, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 03:35:47.303825 (Thread-1): unclosed <ssl.SSLSocket fd=1992, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 65534, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 03:35:47.303825 (Thread-1): unclosed <ssl.SSLSocket fd=2104, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 49152, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 03:35:51.266870 (Thread-1): unclosed <ssl.SSLSocket fd=2344, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 49156, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 03:35:51.267875 (Thread-1): unclosed <ssl.SSLSocket fd=2284, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 49158, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 03:35:51.269855 (Thread-1): unclosed <ssl.SSLSocket fd=2460, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 49160, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 03:35:55.276596 (MainThread): unclosed <ssl.SSLSocket fd=2512, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 49164, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 03:35:55.278617 (MainThread): unclosed <ssl.SSLSocket fd=2428, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 49166, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 03:36:46.410591 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:36:46.413591 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:36:46.415612 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:36:46.429591 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:36:46.429591 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:36:46.461590 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-24 03:36:46.476592 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-24 03:36:49.188858 (Thread-2): unclosed <ssl.SSLSocket fd=2292, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 49184, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 03:36:51.826408 (MainThread): unclosed <ssl.SSLSocket fd=2204, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 49189, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 03:38:39.877106 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:38:39.880106 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:38:39.882109 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:38:39.895100 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:38:39.896100 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:38:39.902106 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:38:39.902106 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:38:39.908074 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:38:39.909107 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:38:39.915108 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:38:39.915108 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:38:39.921112 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:38:39.922106 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-24 03:38:39.956069 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-24 03:38:39.975076 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-24 03:38:45.246388 (Thread-2): unclosed <ssl.SSLSocket fd=2348, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 49220, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 03:38:45.248388 (Thread-2): unclosed <ssl.SSLSocket fd=2428, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 49222, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 03:38:49.886628 (MainThread): unclosed <ssl.SSLSocket fd=2536, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 49231, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-24 03:38:49.890654 (MainThread): unclosed <ssl.SSLSocket fd=2476, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5814:2c0e:ae93:71c7', 49226, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
