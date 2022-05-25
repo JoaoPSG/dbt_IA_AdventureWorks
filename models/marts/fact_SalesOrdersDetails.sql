@@ -42,12 +42,12 @@ with
         from {{ ref('dim_Reasons') }}
     ),
     
-    dim_SalesTerritories as (
-        select
-            territory_sk
-            ,territory_id
-        from {{ ref('dim_SalesTerritories') }}
-    ),
+    -- dim_SalesTerritories as (
+    --     select
+    --         territory_sk
+    --         ,territory_id
+    --     from {{ ref('dim_SalesTerritories') }}
+    -- ),
 
     dim_Customers as (
         select
@@ -67,30 +67,30 @@ with
             /* Foreing Key */
             ,creditCard_sk
             ,product_sk
-            -- ,reason_sk
-            ,territory_sk
+            ,reason_sk
+            -- ,territory_sk
             ,customer_sk
             ,billToAddress_id
             /* Columns */
             ,orderQty
             ,unitPrice
             ,unitPriceDiscount
-            ,carrierTrackingNumber
-
-            ,SalesOrders.orderStatus
-            ,SalesOrders.taxamt
-            ,SalesOrders.comment
-            ,SalesOrders.dueDate
-            ,SalesOrders.freight
-            ,SalesOrders.shipDate
-            ,SalesOrders.subtotal
-            ,SalesOrders.totalDue
             ,SalesOrders.orderDate
-            ,SalesOrders.accountNumber
-            ,SalesOrders.revisionNumber
+            ,SalesOrders.orderStatus
+
+            -- ,carrierTrackingNumber
+            -- ,SalesOrders.taxamt
+            -- ,SalesOrders.comment
+            ,SalesOrders.dueDate
+            ,SalesOrders.shipDate
+            -- ,SalesOrders.freight
+            -- ,SalesOrders.subtotal
+            -- ,SalesOrders.totalDue
+            -- ,SalesOrders.accountNumber
+            -- ,SalesOrders.revisionNumber
             ,SalesOrders.onlineOrderFlag
-            ,SalesOrders.purchaseOrderNumber
-            ,SalesOrders.creditCardApprovalCode
+            -- ,SalesOrders.purchaseOrderNumber
+            -- ,SalesOrders.creditCardApprovalCode
             --,SalesOrders.rowguid
             --,SalesOrders.modifiedDate
         from SalesOrderDetails
@@ -100,7 +100,7 @@ with
         left join dim_CreditCards on SalesOrders.creditCard_id = dim_CreditCards.creditCard_id
         left join dim_Products on SalesOrderDetails.product_id = dim_Products.product_id
         left join dim_Reasons on SalesOrders.salesOrder_id = dim_Reasons.salesOrder_id
-        left join dim_SalesTerritories on SalesOrders.territory_id = dim_SalesTerritories.territory_id
+        -- left join dim_SalesTerritories on SalesOrders.territory_id = dim_SalesTerritories.territory_id
         left join dim_Customers on SalesOrders.customer_id = dim_Customers.customer_id
     )
 

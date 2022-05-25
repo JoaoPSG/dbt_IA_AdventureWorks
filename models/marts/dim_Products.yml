@@ -16,6 +16,8 @@ models:
       - name: productSubcategory_id
         description: Foreing Key
 
+      - name: productSubcategory
+      - name: productCategory
       - name: productName
       - name: productNumber
       - name: size
@@ -36,4 +38,5 @@ models:
       - name: finishedGoodsFlag
       - name: sizeUnitMmeasureCode
       - name: weightUnitMeasureCode
+
       - name: rowguid

@@ -198,4 +198,24 @@ models:
       - name: isOnlyStateProvinceFlag
 
       - name: rowguid
-      - name: modifieddate as modifiedDate
+      - name: modifiedDate
+
+  - name: stg_AdventureWorks_ProductSubcategories
+    columns:
+      - name: productSubcategory_id
+        desccription: NK 
+      - name: productCategory_id
+        description: FK
+      - name: productSubcategory
+
+      - name: rowguid
+      - name: modifiedDate
+
+  - name: stg_AdventureWorks_ProductCategories
+    columns:
+      - name: productCategory_id
+        description: NK
+      - name: productCategory
+
+      - name: rowguid
+      - name: modifiedDate

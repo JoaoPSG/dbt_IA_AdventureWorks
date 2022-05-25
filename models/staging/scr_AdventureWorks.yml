@@ -206,3 +206,18 @@ sources:
           - name: isonlystateprovinceflag
           - name: rowguid
           - name: modifieddate
+
+      - name: airbyte_productsubcategory
+        columns:
+          - name: productsubcategoryid
+          - name: productcategoryid
+          - name: name
+          - name: rowguid
+          - name: modifieddate
+
+      - name: airbyte_productcategory
+        columns:
+          - name: productcategoryid
+          - name: name
+          - name: rowguid
+          - name: modifieddate

@@ -39,10 +39,55 @@ Products as (
 )
 
 select * from Products
+),  __dbt__cte__stg_AdventureWorks_ProductSubcategories as (
+with source as (
+    select * from `snappy-meridian-350123`.`AdventureWorks`.`airbyte_productsubcategory`
+),
+
+ProductSubcategory as (
+    select
+        /* Natural Key */
+        productsubcategoryid as productSubcategory_id
+        /* Foreing Key */
+        ,productcategoryid as productCategory_id
+        /* Columms */
+        ,source.name as productSubcategory
+
+        ,rowguid
+        ,modifieddate as modifiedDate
+    from source
+)
+
+select * from ProductSubcategory
+),  __dbt__cte__stg_AdventureWorks_ProductCategories as (
+with source as (
+    select * from `snappy-meridian-350123`.`AdventureWorks`.`airbyte_productcategory`
+),
+
+ProductCategories as (
+    select
+        /* Natural Key */
+        productcategoryid as productCategory_id
+        /* Columms */
+        ,source.name as productCategory
+
+        ,rowguid
+        ,modifieddate as modifiedDate
+    from source
+)
+
+select * from ProductCategories
 ),Products as (
         select * from __dbt__cte__stg_AdventureWorks_Products 
     ),
 
+    ProductSubcategories as (
+        select * from __dbt__cte__stg_AdventureWorks_ProductSubcategories 
+    ),
+
+    ProductCategories as (
+        select * from __dbt__cte__stg_AdventureWorks_ProductCategories 
+    ),
 
     final as (
         select
@@ -51,8 +96,6 @@ select * from Products
     string
 ), '') || '-' || coalesce(cast(productModel_id as 
     string
-), '') || '-' || coalesce(cast(productSubcategory_id as 
-    string
 ), '') as 
     string
 ))) as product_sk --hashed surrogate key
@@ -60,10 +103,12 @@ select * from Products
             ,product_id
             /* Foreing Key */
             ,productModel_id
-            ,productSubcategory_id
+            ,ProductSubcategories.productSubcategory_id
             /* Columns */
             ,productName
             ,productNumber
+            ,ProductSubcategories.productSubcategory
+            ,ProductCategories.productCategory
         
             ,size
             ,class
@@ -84,6 +129,9 @@ select * from Products
             ,sizeUnitMmeasureCode
             ,weightUnitMeasureCode
         from Products
+
+        left join ProductSubcategories on Products.productSubcategory_id = ProductSubcategories.productSubcategory_id
+        left join ProductCategories on ProductSubcategories.productCategory_id = ProductCategories.productCategory_id
     )
 
 select * from final

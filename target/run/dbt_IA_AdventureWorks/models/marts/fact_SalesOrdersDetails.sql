@@ -153,7 +153,7 @@ select * from SalesOrderSalesReason
             /* Foreing Key */
             ,creditCard_sk
             ,product_sk
-            -- ,reason_sk
+            ,reason_sk
             ,territory_sk
             ,customer_sk
             ,billToAddress_id
