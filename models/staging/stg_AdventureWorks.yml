@@ -137,22 +137,6 @@ models:
       - name: reasonType
       - name: modifiedDate
 
-  - name: stg_AdventureWorks_SalesTerritories
-    columns:
-      - name: territory_id
-        description: NK
-      - name: countryRegion_id
-        description: FK
-      - name: territoryName
-      - name: territoryGroup
-      - name: costYtd
-      - name: salesYtd
-      - name: costLastYear
-      - name: salesLastYear
-
-      - name: rowguid
-      - name: modifiedDate
-
   - name: stg_AdventureWorks_Persons
     columns:
       - name: persons_id

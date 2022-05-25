@@ -149,21 +149,6 @@ sources:
           - name: reasontype
           - name: modifieddate
 
-      - name: airbyte_salesterritory
-        columns:
-          - name: territoryid
-            description: NK
-          - name: countryregioncode
-            description: FK
-          - name: name
-          - name: group
-          - name: costytd
-          - name: salesytd
-          - name: costlastyear
-          - name: saleslastyear
-          - name: rowguid
-          - name: modifieddate
-
       - name: airbyte_person
         columns:
           - name: businessentityid
