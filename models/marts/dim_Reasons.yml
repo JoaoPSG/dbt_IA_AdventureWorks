@@ -2,14 +2,14 @@ version: 2
 
 models:
   - name: dim_Reasons
+    description: Dimensão para filtrar o motivo da compra
     columns:
       - name: reason_sk
         tests:
+          - dbt_utils.at_least_one
           - unique
           - not_null
         description: Surrogate Key
-      - name: salesOrder_id
-        description: Natural Key
       - name: salesReason_id
         description: Natural Key
       - name: reasonName

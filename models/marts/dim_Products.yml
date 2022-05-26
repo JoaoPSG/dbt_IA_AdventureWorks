@@ -2,6 +2,7 @@ version: 2
 
 models:
   - name: dim_Products
+    description: Dimensão para filtrar os nomes, categorias e subcategorias de produtos
     columns:
       - name: product_sk
         tests:

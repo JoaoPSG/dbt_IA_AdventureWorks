@@ -2,6 +2,7 @@ version: 2
 
 models:
   - name: dim_Customers
+    description: Dimensão para identificar os clientes
     columns:
       - name: customer_sk
         tests:

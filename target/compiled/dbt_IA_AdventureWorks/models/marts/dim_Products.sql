@@ -110,24 +110,24 @@ select * from ProductCategories
             ,ProductSubcategories.productSubcategory
             ,ProductCategories.productCategory
         
-            ,size
-            ,class
-            ,color
-            ,style
-            ,productWeight
-            ,makeFlag
-            ,listPrice
-            ,productLine
-            ,sellEndDate
-            ,reorderPoint
-            ,standardCost
-            ,sellStartDate
-            ,discontinuedDate
-            ,safetyStockLevel
-            ,daysToManufacture
-            ,finishedGoodsFlag
-            ,sizeUnitMmeasureCode
-            ,weightUnitMeasureCode
+            -- ,size
+            -- ,class
+            -- ,color
+            -- ,style
+            -- ,productWeight
+            -- ,makeFlag
+            -- ,listPrice
+            -- ,productLine
+            -- ,sellEndDate
+            -- ,reorderPoint
+            -- ,standardCost
+            -- ,sellStartDate
+            -- ,discontinuedDate
+            -- ,safetyStockLevel
+            -- ,daysToManufacture
+            -- ,finishedGoodsFlag
+            -- ,sizeUnitMmeasureCode
+            -- ,weightUnitMeasureCodes
         from Products
 
         left join ProductSubcategories on Products.productSubcategory_id = ProductSubcategories.productSubcategory_id

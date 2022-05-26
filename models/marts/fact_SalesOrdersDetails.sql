@@ -35,25 +35,18 @@ with
         from {{ ref('dim_Products') }}
     ),
 
-    dim_Reasons as (
-        select
-            reason_sk
-            ,salesOrder_id
-        from {{ ref('dim_Reasons') }}
-    ),
-    
-    -- dim_SalesTerritories as (
-    --     select
-    --         territory_sk
-    --         ,territory_id
-    --     from {{ ref('dim_SalesTerritories') }}
-    -- ),
-
     dim_Customers as (
         select
             customer_sk
             ,customer_id
         from {{ ref('dim_Customers') }}
+    ),
+
+    dim_Reasons as (
+        select
+            reason_sk
+            ,salesReason_id
+        from {{ ref('dim_Reasons') }}
     ),
 
 
@@ -99,9 +92,10 @@ with
 
         left join dim_CreditCards on SalesOrders.creditCard_id = dim_CreditCards.creditCard_id
         left join dim_Products on SalesOrderDetails.product_id = dim_Products.product_id
-        left join dim_Reasons on SalesOrders.salesOrder_id = dim_Reasons.salesOrder_id
-        -- left join dim_SalesTerritories on SalesOrders.territory_id = dim_SalesTerritories.territory_id
         left join dim_Customers on SalesOrders.customer_id = dim_Customers.customer_id
+        
+        left join SalesOrderSalesReason on SalesOrders.salesOrder_id = SalesOrderSalesReason.salesOrder_id
+        left join dim_Reasons on SalesOrderSalesReason.salesReason_id = dim_Reasons.salesReason_id
     )
 
 select * from final

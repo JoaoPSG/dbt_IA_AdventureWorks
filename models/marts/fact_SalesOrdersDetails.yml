@@ -2,6 +2,7 @@ version: 2
 
 models:
   - name: fact_SalesOrdersDetails
+    description: Tabela fato com granularidade de "detalhe da venda", ou item do pedido
     columns:
       - name: salesOrdersDetais_sk
         description: Surrogate Key
@@ -32,8 +33,8 @@ models:
           - relationships:
               to: ref('dim_Reasons')
               field: reason_sk
-      - name: territory_sk
-        description: FK
+      # - name: territory_sk
+      #   description: FK
         # tests:
           # - relationships:
           #     to: ref('dim_Reasons')

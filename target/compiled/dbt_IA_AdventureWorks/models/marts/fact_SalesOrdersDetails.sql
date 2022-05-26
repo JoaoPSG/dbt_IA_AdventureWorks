@@ -9,9 +9,9 @@ SalesOrders as (
         /* Natural Key */
         salesorderid as salesOrder_id
         /* Foreing Key */
-        ,salespersonid -- maybe delete
+        --,salespersonid -- maybe delete
         ,customerid as customer_id
-        ,territoryid as territory_id
+        --,territoryid as territory_id
         ,creditcardid as creditCard_id
         ,billtoaddressid as billToAddress_id
         /* Columns */
@@ -111,25 +111,18 @@ select * from SalesOrderSalesReason
         from `snappy-meridian-350123`.`AdventureWorks_marts`.`dim_Products`
     ),
 
-    dim_Reasons as (
-        select
-            reason_sk
-            ,salesOrder_id
-        from `snappy-meridian-350123`.`AdventureWorks_marts`.`dim_Reasons`
-    ),
-    
-    dim_SalesTerritories as (
-        select
-            territory_sk
-            ,territory_id
-        from `snappy-meridian-350123`.`AdventureWorks_marts`.`dim_SalesTerritories`
-    ),
-
     dim_Customers as (
         select
             customer_sk
             ,customer_id
         from `snappy-meridian-350123`.`AdventureWorks_marts`.`dim_Customers`
+    ),
+
+    dim_Reasons as (
+        select
+            reason_sk
+            ,salesReason_id
+        from `snappy-meridian-350123`.`AdventureWorks_marts`.`dim_Reasons`
     ),
 
 
@@ -150,29 +143,29 @@ select * from SalesOrderSalesReason
             ,creditCard_sk
             ,product_sk
             ,reason_sk
-            ,territory_sk
+            -- ,territory_sk
             ,customer_sk
             ,billToAddress_id
             /* Columns */
             ,orderQty
             ,unitPrice
             ,unitPriceDiscount
-            ,carrierTrackingNumber
-
-            ,SalesOrders.orderStatus
-            ,SalesOrders.taxamt
-            ,SalesOrders.comment
-            ,SalesOrders.dueDate
-            ,SalesOrders.freight
-            ,SalesOrders.shipDate
-            ,SalesOrders.subtotal
-            ,SalesOrders.totalDue
             ,SalesOrders.orderDate
-            ,SalesOrders.accountNumber
-            ,SalesOrders.revisionNumber
+            ,SalesOrders.orderStatus
+
+            -- ,carrierTrackingNumber
+            -- ,SalesOrders.taxamt
+            -- ,SalesOrders.comment
+            ,SalesOrders.dueDate
+            ,SalesOrders.shipDate
+            -- ,SalesOrders.freight
+            -- ,SalesOrders.subtotal
+            -- ,SalesOrders.totalDue
+            -- ,SalesOrders.accountNumber
+            -- ,SalesOrders.revisionNumber
             ,SalesOrders.onlineOrderFlag
-            ,SalesOrders.purchaseOrderNumber
-            ,SalesOrders.creditCardApprovalCode
+            -- ,SalesOrders.purchaseOrderNumber
+            -- ,SalesOrders.creditCardApprovalCode
             --,SalesOrders.rowguid
             --,SalesOrders.modifiedDate
         from SalesOrderDetails
@@ -181,9 +174,10 @@ select * from SalesOrderSalesReason
 
         left join dim_CreditCards on SalesOrders.creditCard_id = dim_CreditCards.creditCard_id
         left join dim_Products on SalesOrderDetails.product_id = dim_Products.product_id
-        left join dim_Reasons on SalesOrders.salesOrder_id = dim_Reasons.salesOrder_id
-        left join dim_SalesTerritories on SalesOrders.territory_id = dim_SalesTerritories.territory_id
         left join dim_Customers on SalesOrders.customer_id = dim_Customers.customer_id
+        
+        left join SalesOrderSalesReason on SalesOrders.salesOrder_id = SalesOrderSalesReason.salesOrder_id
+        left join dim_Reasons on SalesOrderSalesReason.salesReason_id = dim_Reasons.salesReason_id
     )
 
 select * from final

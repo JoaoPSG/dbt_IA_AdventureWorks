@@ -18,14 +18,14 @@ with
             ,territory_id
             /* Columms */ 
             ,personType
-            ,title
-            ,suffix
+            -- ,title
+            -- ,suffix
             ,firstName
             ,middleName
             ,lastName
-            ,nameStyle
-            ,emailPromotion
-            ,additionalContactInfo
+            -- ,nameStyle
+            -- ,emailPromotion
+            -- ,additionalContactInfo
         from Customers
 
         left join Persons on Customers.person_id = Persons.persons_id

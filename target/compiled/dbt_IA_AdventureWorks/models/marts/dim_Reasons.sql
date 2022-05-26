@@ -16,48 +16,24 @@ SalesReason as (
 )
 
 select * from SalesReason
-),  __dbt__cte__stg_AdventureWorks_SalesOrderSalesReason as (
-with source as (
-    select * from `snappy-meridian-350123`.`AdventureWorks`.`airbyte_salesorderheadersalesreason`
-),
-
-SalesOrderSalesReason as (
-    select
-        /* Natural/Foreing Key */
-        salesorderid as salesOrder_id
-        ,salesreasonid as salesReason_id
-        /* Columns */
-        ,cast(modifieddate as timestamp) as modifiedDate 
-    from source
-)
-
-select * from SalesOrderSalesReason
 ),SalesReasons as (
         select * from __dbt__cte__stg_AdventureWorks_SalesReasons 
-    ),
-
-    SalesOrderSalesReason as (
-        select * from __dbt__cte__stg_AdventureWorks_SalesOrderSalesReason 
     ),
 
     final as (
         select
             /* Surrogate Key */
-            distinct to_hex(md5(cast(coalesce(cast(SalesReasons.salesReason_id as 
+            distinct to_hex(md5(cast(coalesce(cast(salesReason_id as 
     string
 ), '') as 
     string
 ))) as reason_sk --hashed surrogate key
             /* Natural Key */
-            ,SalesReasons.salesReason_id
-            /* Foreing Key */
-            salesOrder_id
+            ,salesReason_id
             /* Columms */
             ,reasonName
             ,reassonType
         from SalesReasons
-
-        left join SalesOrderSalesReason on SalesReasons.salesReason_id = SalesOrderSalesReason.salesReason_id
     )
 
 select * from final

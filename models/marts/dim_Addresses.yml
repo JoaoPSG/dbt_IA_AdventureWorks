@@ -2,6 +2,7 @@ version: 2
 
 models:
   - name: dim_Addresses
+    description: Dimensão de endereço, cidade, estado e país
     columns:
       - name: address_sk
         description: SK

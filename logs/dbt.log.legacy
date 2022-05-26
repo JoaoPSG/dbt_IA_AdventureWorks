@@ -1152,3 +1152,581 @@
 2022-05-24 23:57:46.291448 (Thread-1): unclosed <ssl.SSLSocket fd=2424, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5110:6e37:355d:c9b7', 57829, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
 2022-05-24 23:57:46.293452 (Thread-1): unclosed <ssl.SSLSocket fd=2508, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5110:6e37:355d:c9b7', 57835, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
 2022-05-24 23:57:46.295455 (Thread-1): unclosed <ssl.SSLSocket fd=2444, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:5110:6e37:355d:c9b7', 57841, 0, 0), raddr=('2800:3f0:4001:82e::200a', 443, 0, 0)>
+2022-05-26 00:51:40.917535 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:51:40.921549 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:51:40.940535 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:51:40.943535 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:51:40.945535 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:51:40.958565 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:51:40.959565 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:51:40.965565 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:51:40.966565 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:51:40.972565 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:51:40.972565 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:51:40.979565 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:51:40.979565 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:51:40.987567 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:51:40.990552 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:51:40.998541 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:51:41.001574 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:51:41.018536 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:51:41.022536 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:51:41.029575 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:51:41.032538 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:54:22.962595 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:54:22.965599 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:54:22.978588 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:54:22.980588 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:54:22.982589 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:54:22.994589 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:54:22.995589 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:54:23.000589 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:54:23.001589 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:54:23.006592 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:54:23.007588 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:54:23.013589 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:54:23.013589 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:54:23.018559 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:54:23.020569 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:54:23.025590 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:54:23.028589 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:54:23.041590 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:54:23.043588 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:54:23.048589 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:54:23.050589 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:04.956754 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:04.958753 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:04.964753 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:04.966753 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:04.974726 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:04.976753 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:04.995724 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:04.998726 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:05.003726 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:05.006726 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:05.020762 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:05.023759 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:05.025761 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:05.037760 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:05.038759 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:05.043759 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:05.044776 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:05.050753 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:05.050753 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:05.056753 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:05.056753 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:12.463482 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:12.466481 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:12.471482 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:12.474455 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:12.480453 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:12.482469 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:12.496482 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:12.499481 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:12.503481 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:12.506482 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:12.519481 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:12.521481 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:12.524482 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:12.536482 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:12.537481 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:12.542483 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:12.543482 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:12.548482 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:12.549481 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:12.556482 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:12.556482 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:37.817237 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:37.820237 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:37.825237 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:37.827241 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:37.833237 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:37.835236 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:37.848236 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:37.851236 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:37.855236 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:37.858238 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:37.871236 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:37.873236 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:37.876236 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:37.887267 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:37.888268 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:37.893267 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:37.894268 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:37.899267 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:37.900268 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:37.905268 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:37.906272 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:54.604629 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:54.607629 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:54.613630 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:54.615631 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:54.620630 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:54.623629 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:54.637608 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:54.639620 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:54.645636 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:54.647638 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:54.660629 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:54.662629 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:54.664629 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:54.676629 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:54.676629 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:54.682629 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:54.682629 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:54.687630 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:54.688629 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:54.694629 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:56:54.694629 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:58:34.269589 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:58:34.271590 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:58:34.277589 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:58:34.279589 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:58:34.284588 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:58:34.286589 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:58:34.299588 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:58:34.301588 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:58:34.306589 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:58:34.308589 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:58:34.321589 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:58:34.323589 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:58:34.326589 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:58:34.338589 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:58:34.338589 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:58:34.344589 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:58:34.344589 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:58:34.350589 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:58:34.350589 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:58:34.357589 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:58:34.358596 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 00:58:34.516565 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-26 00:58:35.683795 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-26 00:58:37.680629 (Thread-1): unclosed <ssl.SSLSocket fd=2360, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 63283, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 00:58:40.693620 (Thread-2): unclosed <ssl.SSLSocket fd=2356, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 63287, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 00:58:40.693620 (Thread-2): unclosed <ssl.SSLSocket fd=2184, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 63288, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 00:58:42.264122 (MainThread): unclosed <ssl.SSLSocket fd=2424, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 63292, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 00:58:49.999215 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-26 00:58:50.017245 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-26 00:58:54.488519 (Thread-2): unclosed <ssl.SSLSocket fd=2256, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 63299, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 00:58:54.488519 (Thread-2): unclosed <ssl.SSLSocket fd=2252, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 63300, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 00:58:54.490519 (Thread-2): unclosed <ssl.SSLSocket fd=2340, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 63302, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 00:58:58.611171 (Thread-1): unclosed <ssl.SSLSocket fd=2392, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 63306, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 00:58:58.612207 (Thread-1): unclosed <ssl.SSLSocket fd=2396, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 63309, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 00:59:03.380080 (Thread-2): unclosed <ssl.SSLSocket fd=2312, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 63313, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 00:59:03.382078 (Thread-2): unclosed <ssl.SSLSocket fd=2420, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 63315, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 00:59:06.820634 (Thread-1): unclosed <ssl.SSLSocket fd=2440, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 63319, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 00:59:06.821634 (Thread-1): unclosed <ssl.SSLSocket fd=2444, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 63321, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 00:59:13.292758 (MainThread): unclosed <ssl.SSLSocket fd=2432, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 63331, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 00:59:13.296796 (MainThread): unclosed <ssl.SSLSocket fd=2548, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 63327, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 00:59:13.298795 (MainThread): unclosed <ssl.SSLSocket fd=2248, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 63329, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 00:59:27.908975 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-26 00:59:27.925975 (ThreadPoolExecutor-0_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-26 00:59:33.174140 (MainThread): unclosed <ssl.SSLSocket fd=1924, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 63337, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 01:08:06.233855 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 01:08:06.236856 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 01:08:06.238855 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 01:08:06.249856 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 01:08:06.250864 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 01:08:06.256855 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 01:08:06.256855 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 01:08:06.261855 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 01:08:06.262856 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 01:08:06.267855 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 01:08:06.268857 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 01:08:06.273854 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 01:08:06.275855 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 01:08:06.280855 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 01:08:06.283855 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 01:08:06.287854 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 01:08:06.289854 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 01:08:06.302854 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 01:08:06.305854 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 01:08:06.312855 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 01:08:06.314854 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 01:08:06.345855 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-26 01:08:06.362859 (ThreadPoolExecutor-0_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-26 02:52:16.507160 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-26 02:52:17.530962 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-26 02:52:19.494137 (MainThread): unclosed <ssl.SSLSocket fd=2236, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 65329, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 02:52:43.532957 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-26 02:52:44.176305 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-26 02:52:46.202761 (MainThread): unclosed <ssl.SSLSocket fd=2224, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 65339, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 02:56:52.836288 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-26 02:56:52.853294 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-26 02:56:56.831030 (Thread-2): unclosed <ssl.SSLSocket fd=2276, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 49461, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 02:56:56.831030 (Thread-2): unclosed <ssl.SSLSocket fd=2280, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 49462, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 02:56:56.833020 (Thread-2): unclosed <ssl.SSLSocket fd=2376, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 49465, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 02:56:59.527075 (Thread-1): unclosed <ssl.SSLSocket fd=2400, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 49471, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 02:56:59.527075 (Thread-1): unclosed <ssl.SSLSocket fd=2392, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 49470, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 02:57:04.211448 (Thread-2): unclosed <ssl.SSLSocket fd=2108, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 49475, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 02:57:04.213448 (Thread-2): unclosed <ssl.SSLSocket fd=2388, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 49477, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 02:57:07.769469 (Thread-2): unclosed <ssl.SSLSocket fd=2452, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 49482, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 02:57:07.772492 (Thread-2): unclosed <ssl.SSLSocket fd=2072, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 49486, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 02:57:07.772492 (Thread-2): unclosed <ssl.SSLSocket fd=2280, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 49485, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 02:57:13.402515 (MainThread): unclosed <ssl.SSLSocket fd=2532, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 49490, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 02:57:13.403515 (MainThread): unclosed <ssl.SSLSocket fd=2364, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 49492, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 02:57:13.404514 (MainThread): unclosed <ssl.SSLSocket fd=2556, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 49494, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 02:59:36.926464 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 02:59:36.930464 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 02:59:36.940470 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 02:59:36.979012 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-26 02:59:36.995014 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-26 02:59:41.227492 (Thread-2): unclosed <ssl.SSLSocket fd=2340, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 49520, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 02:59:41.227492 (Thread-2): unclosed <ssl.SSLSocket fd=2348, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 49521, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 02:59:41.229474 (Thread-2): unclosed <ssl.SSLSocket fd=2400, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 49524, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 02:59:44.607405 (Thread-2): unclosed <ssl.SSLSocket fd=2452, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 49529, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 02:59:44.608412 (Thread-2): unclosed <ssl.SSLSocket fd=2244, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 49531, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 02:59:44.610403 (Thread-2): unclosed <ssl.SSLSocket fd=2460, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 49533, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 02:59:47.138744 (Thread-1): unclosed <ssl.SSLSocket fd=2500, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 49538, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 02:59:47.139780 (Thread-1): unclosed <ssl.SSLSocket fd=2504, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 49540, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 02:59:49.985072 (Thread-1): unclosed <ssl.SSLSocket fd=2412, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 49544, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 02:59:49.987110 (Thread-1): unclosed <ssl.SSLSocket fd=2232, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 49546, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 02:59:49.988074 (Thread-1): unclosed <ssl.SSLSocket fd=2280, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 49548, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 02:59:50.040073 (Thread-1): unclosed <ssl.SSLSocket fd=2428, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 49526, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 02:59:50.041072 (Thread-1): unclosed <ssl.SSLSocket fd=2496, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 49536, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 02:59:50.042073 (Thread-1): unclosed <ssl.SSLSocket fd=2520, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 49542, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 02:59:53.560870 (MainThread): unclosed <ssl.SSLSocket fd=2152, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 49552, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 02:59:53.561870 (MainThread): unclosed <ssl.SSLSocket fd=2436, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 49554, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 02:59:53.563869 (MainThread): unclosed <ssl.SSLSocket fd=2216, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 49556, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 03:01:29.574046 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 03:01:29.577048 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 03:01:29.580047 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 03:01:29.594047 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 03:01:29.596047 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 03:01:29.598056 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 03:01:29.609032 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 03:01:29.609032 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 03:01:29.614054 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 03:01:29.620056 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 03:01:29.620056 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 03:01:29.627055 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 03:01:29.627055 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 03:01:29.634020 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 03:01:29.634020 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 03:01:29.670053 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-26 03:01:29.686026 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-26 03:01:35.428429 (Thread-1): unclosed <ssl.SSLSocket fd=2324, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 49581, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 03:01:35.429431 (Thread-1): unclosed <ssl.SSLSocket fd=2404, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 49583, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 03:01:39.250741 (MainThread): unclosed <ssl.SSLSocket fd=2140, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 49591, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 03:01:39.256755 (MainThread): unclosed <ssl.SSLSocket fd=2364, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 49587, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 03:01:39.258740 (MainThread): unclosed <ssl.SSLSocket fd=2520, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 49589, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 03:03:32.095704 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 03:03:32.097705 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 03:03:32.100704 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 03:03:32.112705 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 03:03:32.113705 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 03:03:32.118706 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 03:03:32.119735 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 03:03:32.126735 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 03:03:32.132736 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 03:03:32.133736 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 03:03:32.140736 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 03:03:32.140736 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 03:03:32.172704 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-26 03:03:32.188707 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-26 03:03:34.676278 (Thread-2): unclosed <ssl.SSLSocket fd=2332, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 49612, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 03:03:38.445285 (Thread-2): unclosed <ssl.SSLSocket fd=2344, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 49614, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 03:03:38.447285 (Thread-2): unclosed <ssl.SSLSocket fd=2360, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 49616, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 03:03:38.449284 (Thread-2): unclosed <ssl.SSLSocket fd=2440, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 49618, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 03:03:41.222930 (MainThread): unclosed <ssl.SSLSocket fd=2264, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 49624, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 03:03:41.231935 (MainThread): unclosed <ssl.SSLSocket fd=2136, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:f88f:edd5:4836:81b3', 49622, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 12:52:19.743675 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 12:52:19.792894 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 12:52:19.798931 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 12:52:19.801930 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 12:52:19.807892 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 12:52:19.810927 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 12:52:19.824928 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 12:52:19.826928 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 12:52:19.840893 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 12:52:19.843930 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 12:52:19.845927 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 12:52:19.858921 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 12:52:19.860921 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 12:52:19.863928 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 12:52:19.872910 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 12:52:19.873910 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 12:52:19.879895 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 12:52:19.879895 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 12:52:19.883894 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 12:52:19.889919 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 12:52:19.889919 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 12:52:19.896929 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 12:52:19.896929 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 12:52:20.072950 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-26 12:52:20.107031 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-26 12:52:22.983629 (Thread-2): unclosed <ssl.SSLSocket fd=2540, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 59546, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 12:52:24.954862 (Thread-1): unclosed <ssl.SSLSocket fd=2552, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 59551, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 12:52:24.954862 (Thread-1): unclosed <ssl.SSLSocket fd=2496, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 59550, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 12:52:26.595223 (Thread-1): unclosed <ssl.SSLSocket fd=2316, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 59555, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 12:52:28.543612 (Thread-1): unclosed <ssl.SSLSocket fd=2316, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 59559, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 12:52:30.317065 (Thread-1): unclosed <ssl.SSLSocket fd=2576, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 59561, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 12:52:32.407273 (Thread-1): unclosed <ssl.SSLSocket fd=2704, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 59565, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 12:52:32.541999 (Thread-2): unclosed <ssl.SSLSocket fd=2544, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 59547, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 12:52:32.544000 (Thread-2): unclosed <ssl.SSLSocket fd=2628, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 59553, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 12:52:32.545001 (Thread-2): unclosed <ssl.SSLSocket fd=2536, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 59557, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 12:52:32.546000 (Thread-2): unclosed <ssl.SSLSocket fd=2556, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 59563, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 12:52:32.547002 (Thread-2): unclosed <ssl.SSLSocket fd=2148, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 59567, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 12:52:34.234952 (Thread-2): unclosed <ssl.SSLSocket fd=2316, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 59571, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 12:52:37.055695 (Thread-1): unclosed <ssl.SSLSocket fd=2740, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 59575, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 12:52:37.057660 (Thread-1): unclosed <ssl.SSLSocket fd=2668, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 59577, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 12:52:38.741230 (MainThread): unclosed <ssl.SSLSocket fd=2316, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 59581, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:02:53.644215 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-26 13:02:54.706266 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-26 13:02:56.843986 (Thread-2): unclosed <ssl.SSLSocket fd=2352, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 59694, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:02:56.847982 (Thread-2): unclosed <ssl.SSLSocket fd=2240, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 59695, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:02:59.441899 (MainThread): unclosed <ssl.SSLSocket fd=944, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 59699, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:02:59.442899 (MainThread): unclosed <ssl.SSLSocket fd=2444, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 59702, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:04:16.809346 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-26 13:04:17.431020 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-26 13:04:19.496938 (Thread-1): unclosed <ssl.SSLSocket fd=2356, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 59730, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:04:20.746780 (Thread-1): unclosed <ssl.SSLSocket fd=2372, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 59732, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:04:22.889056 (MainThread): unclosed <ssl.SSLSocket fd=2320, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 59736, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:05:21.957002 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-26 13:05:22.574040 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-26 13:05:24.575773 (Thread-2): unclosed <ssl.SSLSocket fd=2472, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 59751, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:05:25.804834 (Thread-2): unclosed <ssl.SSLSocket fd=384, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 59755, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:05:27.710044 (MainThread): unclosed <ssl.SSLSocket fd=2568, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 59758, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:15:55.391524 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-26 13:15:56.513114 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-26 13:15:58.676613 (Thread-2): unclosed <ssl.SSLSocket fd=2480, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 55557, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:15:59.955092 (Thread-1): unclosed <ssl.SSLSocket fd=2396, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 55563, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:16:02.516342 (MainThread): unclosed <ssl.SSLSocket fd=1976, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 55566, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:16:02.517338 (MainThread): unclosed <ssl.SSLSocket fd=2144, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 55568, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:16:47.835057 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-26 13:16:47.851095 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-26 13:16:51.282462 (Thread-2): unclosed <ssl.SSLSocket fd=2340, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 55584, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:16:54.614537 (Thread-1): unclosed <ssl.SSLSocket fd=2248, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 55589, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:16:54.615541 (Thread-1): unclosed <ssl.SSLSocket fd=2404, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 55591, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:16:57.431645 (Thread-1): unclosed <ssl.SSLSocket fd=2380, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 55600, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:22:54.399125 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:22:54.401123 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:22:54.404125 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:22:54.417123 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:22:54.418123 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:22:54.424143 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:22:54.425156 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:22:54.427156 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:22:54.434155 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:22:54.435154 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:22:54.441157 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:22:54.441157 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:22:54.453128 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:22:54.455161 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:22:54.458163 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:22:54.502160 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-26 13:22:55.582208 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-26 13:22:57.665122 (Thread-1): unclosed <ssl.SSLSocket fd=2468, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 55685, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:22:57.665122 (Thread-1): unclosed <ssl.SSLSocket fd=2472, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 55686, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:23:00.090339 (Thread-2): unclosed <ssl.SSLSocket fd=2392, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 55689, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:23:00.091340 (Thread-2): unclosed <ssl.SSLSocket fd=2272, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 55690, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:23:50.270808 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:23:50.273808 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:23:50.276808 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:23:50.290807 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:23:50.291808 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:23:50.299813 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:23:50.299813 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:23:50.302816 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:23:50.308814 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:23:50.309815 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:23:50.315818 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:23:50.315818 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:23:50.354780 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-26 13:24:00.682179 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-26 13:24:01.311086 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-26 13:24:36.440608 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:24:36.443609 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:24:36.448579 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:24:36.463615 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:24:36.463615 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:24:36.470614 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:24:36.470614 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:24:36.472614 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:24:36.479609 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:24:36.479609 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:24:36.485617 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:24:36.486614 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:24:36.528043 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-26 13:24:37.127837 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-26 13:25:43.526803 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:25:43.529803 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:25:43.532803 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:25:43.544803 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:25:43.546803 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:25:43.548803 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:25:43.558802 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:25:43.559803 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:25:43.565803 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:25:43.565803 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:25:43.567802 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:25:43.573803 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:25:43.574803 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:25:43.579804 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:25:43.580802 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:25:43.618803 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-26 13:25:44.220161 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-26 13:28:13.562911 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-26 13:28:14.732037 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-26 13:28:16.853318 (Thread-1): unclosed <ssl.SSLSocket fd=2152, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 55773, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:28:18.052558 (Thread-1): unclosed <ssl.SSLSocket fd=2352, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 55777, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:28:21.715173 (MainThread): unclosed <ssl.SSLSocket fd=2388, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 55780, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:31:05.194267 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:31:05.196267 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:31:05.198267 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:31:05.236255 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-26 13:31:05.992482 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-26 13:31:08.116475 (Thread-2): unclosed <ssl.SSLSocket fd=2236, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 55813, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:31:08.117473 (Thread-2): unclosed <ssl.SSLSocket fd=2240, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 55814, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:31:09.337540 (Thread-2): unclosed <ssl.SSLSocket fd=2448, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 55819, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:31:13.520509 (MainThread): unclosed <ssl.SSLSocket fd=2440, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 55821, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:32:47.648127 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:32:47.650127 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:32:47.653128 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:32:47.690123 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-26 13:32:48.326040 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-26 13:32:50.190597 (MainThread): unclosed <ssl.SSLSocket fd=2316, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 55851, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:32:50.192596 (MainThread): unclosed <ssl.SSLSocket fd=1972, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 55853, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:33:46.642330 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-26 13:33:47.688559 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-26 13:34:29.290054 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:34:29.293054 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:34:29.297054 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:34:29.299053 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:34:29.305054 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:34:29.307054 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:34:29.321053 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:34:29.323054 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:34:29.335054 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:34:29.337053 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:34:29.340054 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:34:29.352053 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:34:29.355053 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:34:29.357054 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:34:29.366053 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:34:29.366053 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:34:29.373052 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:34:29.374081 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:34:29.376050 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:34:29.382080 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:34:29.382080 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:34:29.389051 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:34:29.389051 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:34:29.561063 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-26 13:34:30.181117 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-26 13:34:32.152362 (Thread-2): unclosed <ssl.SSLSocket fd=2396, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 55894, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:34:33.589597 (Thread-1): unclosed <ssl.SSLSocket fd=2696, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 55898, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:34:38.552574 (MainThread): unclosed <ssl.SSLSocket fd=2684, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 55900, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:36:19.363312 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:36:19.366312 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:36:19.369312 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:36:19.383312 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:36:19.385312 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:36:19.387312 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:36:19.397312 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:36:19.398312 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:36:19.403312 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:36:19.404313 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:36:19.406312 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:36:19.412312 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:36:19.412312 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:36:19.418313 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:36:19.419313 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:36:19.456315 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-26 13:36:20.087549 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-26 13:37:54.030082 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:37:54.033084 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:37:54.035082 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:37:54.047082 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:37:54.048082 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:37:54.053082 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:37:54.053082 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:37:54.056082 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:37:54.061082 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:37:54.062082 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:37:54.068090 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:37:54.068090 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:37:54.078089 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:37:54.080088 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:37:54.082088 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:37:54.123088 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-26 13:37:54.752992 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-26 13:39:53.257738 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:39:53.261741 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:39:53.264744 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:39:53.278711 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:39:53.278711 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:39:53.285744 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:39:53.285744 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:39:53.287746 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:39:53.294744 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:39:53.295744 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:39:53.300744 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:39:53.301744 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:39:53.339738 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-26 13:39:54.292909 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-26 13:44:21.552661 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:44:21.554667 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:44:21.557671 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:44:21.569667 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:44:21.570667 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:44:21.575637 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:44:21.576662 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:44:21.578661 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:44:21.584662 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:44:21.585661 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:44:21.591661 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:44:21.591661 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:44:21.602661 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:44:21.604668 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:44:21.606668 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:44:21.653635 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-26 13:44:22.261281 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-26 13:44:24.297243 (Thread-2): unclosed <ssl.SSLSocket fd=2456, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 56023, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:44:24.298245 (Thread-2): unclosed <ssl.SSLSocket fd=324, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 56024, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:44:26.655518 (Thread-1): unclosed <ssl.SSLSocket fd=2500, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 56028, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:44:26.655518 (Thread-1): unclosed <ssl.SSLSocket fd=2440, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 56027, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:45:41.926055 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:45:41.929055 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:45:41.931055 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:45:41.944027 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:45:41.945055 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:45:41.954036 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:45:41.955025 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:45:41.957028 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:45:41.963065 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:45:41.964064 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:45:41.969061 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:45:41.970063 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:45:42.008026 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-26 13:45:42.975626 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-26 13:48:57.489402 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-26 13:48:58.108816 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-26 13:48:59.930975 (MainThread): unclosed <ssl.SSLSocket fd=2428, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 56079, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:50:05.664163 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:50:05.667193 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:50:05.669194 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-05-26 13:50:05.710193 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-26 13:50:06.330951 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-26 13:50:08.362847 (Thread-1): unclosed <ssl.SSLSocket fd=2348, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 56091, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:50:09.607287 (Thread-2): unclosed <ssl.SSLSocket fd=2424, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 56095, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:50:12.153126 (MainThread): unclosed <ssl.SSLSocket fd=1080, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 56097, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:50:12.155123 (MainThread): unclosed <ssl.SSLSocket fd=2444, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 56100, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:50:29.760724 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-05-26 13:50:29.785721 (ThreadPoolExecutor-1_0): Client.dataset is deprecated and will be removed in a future version. Use a string like 'my_project.my_dataset' or a cloud.google.bigquery.DatasetReference object, instead.
+2022-05-26 13:50:32.410720 (Thread-1): unclosed <ssl.SSLSocket fd=2340, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 56109, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:50:35.027001 (Thread-2): unclosed <ssl.SSLSocket fd=2360, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 56115, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:50:35.028997 (Thread-2): unclosed <ssl.SSLSocket fd=2420, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 56117, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:50:37.202201 (Thread-2): unclosed <ssl.SSLSocket fd=2488, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 56121, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:50:40.941651 (Thread-1): unclosed <ssl.SSLSocket fd=2588, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 56128, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:50:43.441122 (Thread-1): unclosed <ssl.SSLSocket fd=2460, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 56132, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:50:45.372574 (Thread-2): unclosed <ssl.SSLSocket fd=2328, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 56108, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:50:45.374574 (Thread-2): unclosed <ssl.SSLSocket fd=2436, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 56119, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:50:45.375573 (Thread-2): unclosed <ssl.SSLSocket fd=2524, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 56123, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:50:45.376573 (Thread-2): unclosed <ssl.SSLSocket fd=2580, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 56126, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:50:45.378570 (Thread-2): unclosed <ssl.SSLSocket fd=2092, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 56130, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:50:45.379570 (Thread-2): unclosed <ssl.SSLSocket fd=1976, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 56134, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:50:47.139403 (Thread-2): unclosed <ssl.SSLSocket fd=2704, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 56140, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:50:49.267468 (Thread-1): unclosed <ssl.SSLSocket fd=2700, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 56144, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:50:49.268467 (Thread-1): unclosed <ssl.SSLSocket fd=1912, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 56145, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>
+2022-05-26 13:50:52.211763 (MainThread): unclosed <ssl.SSLSocket fd=1908, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('2804:4d98:1c5:6700:4c0c:2874:643f:1ddd', 56149, 0, 0), raddr=('2800:3f0:4001:822::200a', 443, 0, 0)>

@@ -7,9 +7,9 @@ SalesOrders as (
         /* Natural Key */
         salesorderid as salesOrder_id
         /* Foreing Key */
-        ,salespersonid -- maybe delete
+        --,salespersonid -- maybe delete
         ,customerid as customer_id
-        ,territoryid as territory_id
+        --,territoryid as territory_id
         ,creditcardid as creditCard_id
         ,billtoaddressid as billToAddress_id
         /* Columns */

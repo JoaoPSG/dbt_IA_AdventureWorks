@@ -2,6 +2,7 @@ version: 2
 
 models:
   - name: dim_CreditCards
+    description: Dimensão para filtrar o tipo de cartão de crédito. Demais colunas suprimidas por conter informações sensíveis
     columns:
       - name: creditCard_sk
         tests:
@@ -11,8 +12,5 @@ models:
       - name: creditCard_id
         description: Natural Key
       - name: cardType
-      - name: cardNumber
-      - name: expYear
-      - name: expMonth
 
 # fazer depois de traduzir nomes
