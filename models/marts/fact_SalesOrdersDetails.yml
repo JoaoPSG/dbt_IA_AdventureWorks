@@ -3,6 +3,9 @@ version: 2
 models:
   - name: fact_SalesOrdersDetails
     description: Tabela fato com granularidade de "detalhe da venda", ou item do pedido
+    tests:
+      - dbt_utils.equal_rowcount:
+          compare_model: ref('stg_AdventureWorks_SalesOrderDetails')
     columns:
       - name: salesOrdersDetais_sk
         description: Surrogate Key
@@ -27,12 +30,6 @@ models:
           - relationships:
               to: ref('dim_Products')
               field: product_sk
-      - name: reason_sk
-        description: FK
-        tests:
-          - relationships:
-              to: ref('dim_Reasons')
-              field: reason_sk
       # - name: territory_sk
       #   description: FK
         # tests:

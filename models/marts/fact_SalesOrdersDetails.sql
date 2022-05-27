@@ -42,12 +42,12 @@ with
         from {{ ref('dim_Customers') }}
     ),
 
-    dim_Reasons as (
-        select
-            reason_sk
-            ,salesReason_id
-        from {{ ref('dim_Reasons') }}
-    ),
+    -- dim_Reasons as (
+    --     select
+    --         reason_sk
+    --         ,salesReason_id
+    --     from {{ ref('dim_Reasons') }}
+    -- ),
 
 
     final as (
@@ -60,7 +60,7 @@ with
             /* Foreing Key */
             ,creditCard_sk
             ,product_sk
-            ,reason_sk
+            -- ,reason_sk
             -- ,territory_sk
             ,customer_sk
             ,billToAddress_id
@@ -94,8 +94,8 @@ with
         left join dim_Products on SalesOrderDetails.product_id = dim_Products.product_id
         left join dim_Customers on SalesOrders.customer_id = dim_Customers.customer_id
         
-        left join SalesOrderSalesReason on SalesOrders.salesOrder_id = SalesOrderSalesReason.salesOrder_id
-        left join dim_Reasons on SalesOrderSalesReason.salesReason_id = dim_Reasons.salesReason_id
+        -- left join SalesOrderSalesReason on SalesOrders.salesOrder_id = SalesOrderSalesReason.salesOrder_id
+        -- left join dim_Reasons on SalesOrderSalesReason.salesReason_id = dim_Reasons.salesReason_id
     )
 
 select * from final

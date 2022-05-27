@@ -5,7 +5,7 @@ with source as (
 Persons as (
     select
         /* Natural Key */
-        businessentityid as persons_id
+        businessentityid as person_id
         /* Columms */        
         ,persontype as personType
         ,title

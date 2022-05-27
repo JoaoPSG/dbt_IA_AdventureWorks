@@ -3,6 +3,9 @@ version: 2
 models:
   - name: dim_Reasons
     description: Dimensão para filtrar o motivo da compra
+    tests:
+      - dbt_utils.equal_rowcount:
+          compare_model: ref('stg_AdventureWorks_SalesReasons')
     columns:
       - name: reason_sk
         tests:

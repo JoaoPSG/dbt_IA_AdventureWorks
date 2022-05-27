@@ -77,6 +77,26 @@ ProductCategories as (
 )
 
 select * from ProductCategories
+),  __dbt__cte__stg_AdventureWorks_ProductModels as (
+with source as (
+    select * from `snappy-meridian-350123`.`AdventureWorks`.`airbyte_productmodel`
+),
+
+ProductModels as (
+    select
+        /* Natural Key */
+        productmodelid as productModel_id
+        /* Columms */
+        ,source.name as productModel
+        ,instructions
+        ,catalogdescription as catalogDescription
+
+        ,rowguid
+        ,modifieddate as modifiedDate
+    from source
+)
+
+select * from ProductModels
 ),Products as (
         select * from __dbt__cte__stg_AdventureWorks_Products 
     ),
@@ -89,12 +109,14 @@ select * from ProductCategories
         select * from __dbt__cte__stg_AdventureWorks_ProductCategories 
     ),
 
+    ProductModels as (
+        select * from __dbt__cte__stg_AdventureWorks_ProductModels 
+    ),
+
     final as (
         select
             /* Surrogate Key */
             to_hex(md5(cast(coalesce(cast(product_id as 
-    string
-), '') || '-' || coalesce(cast(productModel_id as 
     string
 ), '') as 
     string
@@ -102,11 +124,12 @@ select * from ProductCategories
             /* Natural Key */
             ,product_id
             /* Foreing Key */
-            ,productModel_id
-            ,ProductSubcategories.productSubcategory_id
+            -- ,productModel_id
+            -- ,ProductSubcategories.productSubcategory_id
             /* Columns */
             ,productName
             ,productNumber
+            ,ProductModels.productModel
             ,ProductSubcategories.productSubcategory
             ,ProductCategories.productCategory
         
@@ -130,8 +153,9 @@ select * from ProductCategories
             -- ,weightUnitMeasureCodes
         from Products
 
+        left join ProductModels on Products.productModel_id = ProductModels.productModel_id
         left join ProductSubcategories on Products.productSubcategory_id = ProductSubcategories.productSubcategory_id
-        left join ProductCategories on ProductSubcategories.productCategory_id = ProductCategories.productCategory_id
+        left join ProductCategories on ProductSubcategories.productCategory_id = ProductCategories.productCategory_id        
     )
 
 select * from final

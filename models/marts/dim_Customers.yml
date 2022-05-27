@@ -3,6 +3,9 @@ version: 2
 models:
   - name: dim_Customers
     description: Dimensão para identificar os clientes
+    tests:
+      - dbt_utils.equal_rowcount:
+          compare_model: ref('stg_AdventureWorks_Customers')
     columns:
       - name: customer_sk
         tests:
@@ -11,10 +14,6 @@ models:
         description: Surrogate Key
       - name: customer_id
         description: Natural Key
-      - name: person_id
-        description: Foreing Key
-      - name: territory_id
-        description: Foreing Key
   
       - name: rowguid
       - name: modifiedDate

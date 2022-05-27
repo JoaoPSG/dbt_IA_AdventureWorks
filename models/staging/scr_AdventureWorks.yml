@@ -206,3 +206,22 @@ sources:
           - name: name
           - name: rowguid
           - name: modifieddate
+
+      - name: airbyte_productmodel
+        columns:
+          - name: name
+          - name: instructions
+          - name: productmodelid
+          - name: catalogdescription
+          - name: modifieddate
+          - name: rowguid
+
+      - name: airbyte_store
+        columns:
+          - name: name
+          - name: demographics
+          - name: salespersonid
+          - name: businessentityid
+
+          - name: modifieddate
+          - name: rowguid

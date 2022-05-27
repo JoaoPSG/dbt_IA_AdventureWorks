@@ -11,7 +11,7 @@ Customers as (
         /* Foreing Key */
         ,personid as person_id
         ,territoryid as territory_id
-        -- ,storeid as store_id
+        ,storeid as store_id
         /* Columns */
         ,rowguid
         ,cast(modifieddate as timestamp) as modifiedDate
@@ -27,7 +27,7 @@ with source as (
 Persons as (
     select
         /* Natural Key */
-        businessentityid as persons_id
+        businessentityid as person_id
         /* Columms */        
         ,persontype as personType
         ,title
@@ -46,12 +46,37 @@ Persons as (
 )
 
 select * from Persons
+),  __dbt__cte__stg_AdventureWorks_Stores as (
+with source as (
+    select * from `snappy-meridian-350123`.`AdventureWorks`.`airbyte_store`
+),
+
+Stores as (
+    select
+        /* Natural Key */
+        businessentityid as store_id
+        /* Natural Key */
+        ,salespersonid as salesPerson_id
+        /* Columms */
+        ,source.name as storeName
+        ,demographics
+
+        ,rowguid
+        ,modifieddate as modifiedDate
+    from source
+)
+
+select * from Stores
 ),Customers as (
         select * from __dbt__cte__stg_AdventureWorks_Customers 
     ),
 
     Persons as (
         select * from __dbt__cte__stg_AdventureWorks_Persons
+    ),
+
+    Stores as (
+        select * from __dbt__cte__stg_AdventureWorks_Stores
     ),
 
     final as (
@@ -64,9 +89,6 @@ select * from Persons
 ))) as customer_sk --hashed surrogate key
             /* Natural Key */
             ,customer_id
-            /* Foreing Key */
-            ,Customers.person_id
-            ,territory_id
             /* Columms */ 
             ,personType
             -- ,title
@@ -74,12 +96,14 @@ select * from Persons
             ,firstName
             ,middleName
             ,lastName
+            ,Stores.storeName
             -- ,nameStyle
             -- ,emailPromotion
             -- ,additionalContactInfo
         from Customers
 
-        left join Persons on Customers.person_id = Persons.persons_id
+        left join Persons on Customers.person_id = Persons.person_id
+        left join Stores on Customers.store_id = Stores.store_id
     )
 
 select * from final

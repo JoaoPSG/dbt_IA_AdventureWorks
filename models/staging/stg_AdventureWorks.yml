@@ -28,6 +28,8 @@ models:
         description: FK 
       - name: territory_id
         description: FK salesterritory
+      - name: store_id
+        description: FK
 
       - name: rowguid
       - name: modifiedDate
@@ -139,7 +141,7 @@ models:
 
   - name: stg_AdventureWorks_Persons
     columns:
-      - name: persons_id
+      - name: person_id
         description: NK       
       - name: personType
       - name: title
@@ -200,6 +202,29 @@ models:
       - name: productCategory_id
         description: NK
       - name: productCategory
+
+      - name: rowguid
+      - name: modifiedDate
+
+  - name: stg_AdventureWorks_ProductModels
+    columns:
+      - name: productModel_id
+        description: NK
+      - name: productModel
+      - name: instructions
+      - name: catalogDescription
+        
+      - name: rowguid
+      - name: modifiedDate
+
+  - name: stg_AdventureWorks_Stores
+    columns:
+      - name: businessEntity_id
+        description: NK
+      - name: salespersonid as salesPerson_id
+        description: FK
+      - name: source.name as storeName
+      - name: demographics
 
       - name: rowguid
       - name: modifiedDate

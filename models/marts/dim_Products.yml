@@ -3,6 +3,9 @@ version: 2
 models:
   - name: dim_Products
     description: Dimensão para filtrar os nomes, categorias e subcategorias de produtos
+    tests:
+      - dbt_utils.equal_rowcount:
+          compare_model: ref('stg_AdventureWorks_Products')
     columns:
       - name: product_sk
         tests:
@@ -12,32 +15,33 @@ models:
       - name: product_id
         description: Natural Key
 
-      - name: productModel_id
-        description: Foreing Key
-      - name: productSubcategory_id
-        description: Foreing Key
+      # - name: productModel_id
+      #   description: Foreing Key
+      # - name: productSubcategory_id
+      #   description: Foreing Key
 
+      - name: productModel
       - name: productSubcategory
       - name: productCategory
       - name: productName
-      - name: productNumber
-      - name: size
-      - name: class
-      - name: color
-      - name: style
-      - name: productWeight
-      - name: makeFlag
-      - name: listPrice
-      - name: productLine
-      - name: sellEndDate
-      - name: reorderPoint
-      - name: standardCost
-      - name: sellStartDate
-      - name: discontinuedDate
-      - name: safetyStockLevel
-      - name: daysToManufacture
-      - name: finishedGoodsFlag
-      - name: sizeUnitMmeasureCode
-      - name: weightUnitMeasureCode
+      # - name: productNumber
+      # - name: size
+      # - name: class
+      # - name: color
+      # - name: style
+      # - name: productWeight
+      # - name: makeFlag
+      # - name: listPrice
+      # - name: productLine
+      # - name: sellEndDate
+      # - name: reorderPoint
+      # - name: standardCost
+      # - name: sellStartDate
+      # - name: discontinuedDate
+      # - name: safetyStockLevel
+      # - name: daysToManufacture
+      # - name: finishedGoodsFlag
+      # - name: sizeUnitMmeasureCode
+      # - name: weightUnitMeasureCode
 
       - name: rowguid
