@@ -5,7 +5,7 @@
   as with
      __dbt__cte__stg_AdventureWorks_Addresses as (
 with source as (
-    select * from `snappy-meridian-350123`.`AdventureWorks`.`airbyte_address`
+    select * from `snappy-meridian-350123`.`AdventureWorks_raw`.`airbyte_address`
 ),
 
 Addresses as (
@@ -29,7 +29,7 @@ Addresses as (
 select * from Addresses
 ),  __dbt__cte__stg_AdventureWorks_StateProvinces as (
 with source as (
-    select * from `snappy-meridian-350123`.`AdventureWorks`.`airbyte_stateprovince`
+    select * from `snappy-meridian-350123`.`AdventureWorks_raw`.`airbyte_stateprovince`
 ),
 
 StateProvinces as (
@@ -52,7 +52,7 @@ StateProvinces as (
 select * from StateProvinces
 ),  __dbt__cte__stg_AdventureWorks_CountryRegions as (
 with source as (
-    select * from `snappy-meridian-350123`.`AdventureWorks`.`airbyte_countryregion`
+    select * from `snappy-meridian-350123`.`AdventureWorks_raw`.`airbyte_countryregion`
 ),
 
 CountryRegions as (

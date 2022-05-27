@@ -1,5 +1,5 @@
 with source as (
-    select * from `snappy-meridian-350123`.`AdventureWorks`.`airbyte_productmodel`
+    select * from `snappy-meridian-350123`.`AdventureWorks_raw`.`airbyte_productmodel`
 ),
 
 ProductModels as (

@@ -5,7 +5,7 @@
   as with
      __dbt__cte__stg_AdventureWorks_SalesOrders as (
 with source as (
-    select * from `snappy-meridian-350123`.`AdventureWorks`.`airbyte_salesorderheader`
+    select * from `snappy-meridian-350123`.`AdventureWorks_raw`.`airbyte_salesorderheader`
 ),
 
 SalesOrders as (
@@ -41,7 +41,7 @@ SalesOrders as (
 select * from SalesOrders
 ),  __dbt__cte__stg_AdventureWorks_SalesOrderDetails as (
 with source as (
-    select * from `snappy-meridian-350123`.`AdventureWorks`.`airbyte_salesorderdetail`
+    select * from `snappy-meridian-350123`.`AdventureWorks_raw`.`airbyte_salesorderdetail`
 ),
 
 SalesOrderDetails as (
@@ -65,7 +65,7 @@ SalesOrderDetails as (
 select * from SalesOrderDetails
 ),  __dbt__cte__stg_AdventureWorks_SalesOrderSalesReason as (
 with source as (
-    select * from `snappy-meridian-350123`.`AdventureWorks`.`airbyte_salesorderheadersalesreason`
+    select * from `snappy-meridian-350123`.`AdventureWorks_raw`.`airbyte_salesorderheadersalesreason`
 ),
 
 SalesOrderSalesReason as (

@@ -1,7 +1,7 @@
 with
      __dbt__cte__stg_AdventureWorks_Products as (
 with source as (
-    select * from `snappy-meridian-350123`.`AdventureWorks`.`airbyte_product`
+    select * from `snappy-meridian-350123`.`AdventureWorks_raw`.`airbyte_product`
 ),
 
 Products as (
@@ -41,7 +41,7 @@ Products as (
 select * from Products
 ),  __dbt__cte__stg_AdventureWorks_ProductSubcategories as (
 with source as (
-    select * from `snappy-meridian-350123`.`AdventureWorks`.`airbyte_productsubcategory`
+    select * from `snappy-meridian-350123`.`AdventureWorks_raw`.`airbyte_productsubcategory`
 ),
 
 ProductSubcategory as (
@@ -61,7 +61,7 @@ ProductSubcategory as (
 select * from ProductSubcategory
 ),  __dbt__cte__stg_AdventureWorks_ProductCategories as (
 with source as (
-    select * from `snappy-meridian-350123`.`AdventureWorks`.`airbyte_productcategory`
+    select * from `snappy-meridian-350123`.`AdventureWorks_raw`.`airbyte_productcategory`
 ),
 
 ProductCategories as (
@@ -79,7 +79,7 @@ ProductCategories as (
 select * from ProductCategories
 ),  __dbt__cte__stg_AdventureWorks_ProductModels as (
 with source as (
-    select * from `snappy-meridian-350123`.`AdventureWorks`.`airbyte_productmodel`
+    select * from `snappy-meridian-350123`.`AdventureWorks_raw`.`airbyte_productmodel`
 ),
 
 ProductModels as (

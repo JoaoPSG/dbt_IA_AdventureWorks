@@ -7,7 +7,7 @@ select
 
 with  __dbt__cte__stg_AdventureWorks_Products as (
 with source as (
-    select * from `snappy-meridian-350123`.`AdventureWorks`.`airbyte_product`
+    select * from `snappy-meridian-350123`.`AdventureWorks_raw`.`airbyte_product`
 ),
 
 Products as (

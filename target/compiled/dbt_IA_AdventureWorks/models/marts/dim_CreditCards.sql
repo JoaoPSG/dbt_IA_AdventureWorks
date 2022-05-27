@@ -1,7 +1,7 @@
 with
      __dbt__cte__stg_AdventureWorks_CreditCards as (
 with source as (
-    select * from `snappy-meridian-350123`.`AdventureWorks`.`airbyte_creditcard`
+    select * from `snappy-meridian-350123`.`AdventureWorks_raw`.`airbyte_creditcard`
 ),
 
 CreditCards as (

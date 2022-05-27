@@ -2,18 +2,16 @@ version: 2
 
 models:
   - name: dim_Reasons
-    description: Dimensão para filtrar o motivo da compra
-    tests:
-      - dbt_utils.equal_rowcount:
-          compare_model: ref('stg_AdventureWorks_SalesReasons')
+    description: Dimensão para filtrar o motivo da compra. Cada pedido possui mais de um motivo, mas para evitar a duplicação de detalhes de pedido na tabela fato optou-se por mesclar a tabela de referências nesta dimensão. Outra opção seria manter a tabela como dimensão de referência para economizar armazenamento, porém isso quebraria com o star schema. 
     columns:
       - name: reason_sk
         tests:
-          - dbt_utils.at_least_one
           - unique
           - not_null
         description: Surrogate Key
       - name: salesReason_id
         description: Natural Key
+      - name: salesOrder_id
+        description: Foreing Key
       - name: reasonName
       - name: reassonType
