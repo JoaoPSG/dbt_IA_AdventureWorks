@@ -3,6 +3,7 @@ version: 2
 models:
 
   - name: stg_AdventureWorks_CountryRegions
+    description: Adicionar país no filtro de endereço
     columns:
       - name: countryRegion_id
         description: Natural Key
@@ -21,29 +22,31 @@ models:
 
 
   - name: stg_AdventureWorks_Customers
+    description: Identificador de clientes 
     columns:
       - name: customer_id
-        description: NK
+        description: Natural Key
       - name: person_id
-        description: FK 
+        description: Foreing Key; Identifica comprador se não tiver loja e contado da loja se tiver
       - name: territory_id
-        description: FK salesterritory
+        description: Foreing Key salesterritory
       - name: store_id
-        description: FK
+        description: Foreing Key
 
       - name: rowguid
       - name: modifiedDate
 
 
   - name: stg_AdventureWorks_Products
+    description: Tabela de produtos; O grão separa inclusive por cor e tamanho de bicicleta, por exemplo
     columns:
       - name: product_id
-        description: NK
+        description: Natural Key
 
       - name: productModel_id
-        description: FK
+        description: Foreing Key
       - name: productSubcategory_id
-        description: FK
+        description: Foreing Key
 
       - name: name
       - name: productnumber
@@ -71,18 +74,17 @@ models:
       - name: rowguid
       - name: modifiedDate
 
-
-
   - name: stg_AdventureWorks_SalesOrderDetails
+    description: Menor unidade são os produtos de cada pedido
     columns:
       - name: salesOrder_id
-        description: NK
+        description: Natural Key
       - name: salesOrderDetail_id
-        description: NK; FK
+        description: Natural Key; Foreing Key
       - name: product_id
-        description: FK
+        description: Foreing Key
       - name: specialOffer_id
-        description: FK
+        description: Foreing Key
       - name: orderQyt
       - name: unitPrice
       - name: unitPriceDiscount
@@ -93,17 +95,18 @@ models:
 
 
   - name: stg_AdventureWorks_SalesOrders
+    description: Menor unidade é o pedido
     columns:
       - name: salesOrder_id
-        description: NK
+        description: Natural Key
       - name: salesPerson_id
-        description: FK (dont know if will be used)
+        description: Foreing Key (dont know if will be used)
       - name: customer_id
-        description: FK customer
+        description: Foreing Key customer
       - name: territory_id
-        description: FK salesterritory
+        description: Foreing Key salesterritory
       - name: creditCard_id
-        description: FK creditcard
+        description: Foreing Key creditcard
       - name: orderStatus
       - name: taxamt
       - name: comment
@@ -124,26 +127,30 @@ models:
 
 
   - name: stg_AdventureWorks_SalesOrderSalesReason
+    description: Tabela de referência entre a razão e o pedido, já que há mais de uma razão por pedido
     columns:
       - name: salesOrder_id
-        description: NK; FK
+        description: Natural Key; Foreing Key
       - name: salesreason_id
-        description: NK; FK
+        description: Natural Key; Foreing Key
       - name: modifiedDate
 
   - name: stg_AdventureWorks_SalesReasons
+    description: Motivo da venda
     columns:
       - name: salesreason_id
-        description: NK
+        description: Natural Key
       - name: reasonName
       - name: reasonType
       - name: modifiedDate
 
   - name: stg_AdventureWorks_Persons
+    description: Identifica as pessoas, separandod se elas são compradores individuais ou representantes de lojas
     columns:
       - name: person_id
-        description: NK       
+        description: Natural Key       
       - name: personType
+        description: SP = Store Contact (PJ); IC = Individual (retail) Customer (PF)
       - name: title
       - name: suffix
       - name: firstName
@@ -159,9 +166,9 @@ models:
   - name: stg_AdventureWorks_Addresses
     columns:
       - name: address_id
-        description: NK
+        description: Natural Key
       - name: stateProvince_id 
-        description: FK
+        description: Foreing Key
       - name: postalCode
       - name: addressLine1
       - name: addressLine2
@@ -172,13 +179,14 @@ models:
       - name: modifiedDate
 
   - name: stg_AdventureWorks_StateProvinces
+    description: Adiciona estado no filtro de endereço
     columns:
       - name: stateProvince_id
-        desccription: NK
+        desccription: Natural Key
       - name: territory_id 
-        description: FK
+        description: Foreing Key
       - name: countryRegion_id
-        description: FK
+        description: Foreing Key
       - name: provinceName
       - name: stateProvinceCode
       - name: isOnlyStateProvinceFlag
@@ -187,29 +195,32 @@ models:
       - name: modifiedDate
 
   - name: stg_AdventureWorks_ProductSubcategories
+    description: Adiciona subcategorias nos produtos
     columns:
       - name: productSubcategory_id
-        desccription: NK 
+        desccription: Natural Key 
       - name: productCategory_id
-        description: FK
+        description: Foreing Key
       - name: productSubcategory
 
       - name: rowguid
       - name: modifiedDate
 
   - name: stg_AdventureWorks_ProductCategories
+    description: Adiciona categorias nos produtos
     columns:
       - name: productCategory_id
-        description: NK
+        description: Natural Key
       - name: productCategory
 
       - name: rowguid
       - name: modifiedDate
 
   - name: stg_AdventureWorks_ProductModels
+    description: Adiciona agrupamento por modelos nos produtos
     columns:
       - name: productModel_id
-        description: NK
+        description: Natural Key
       - name: productModel
       - name: instructions
       - name: catalogDescription
@@ -218,11 +229,12 @@ models:
       - name: modifiedDate
 
   - name: stg_AdventureWorks_Stores
+    description: Nome das lojas para relacionar com o customer
     columns:
       - name: businessEntity_id
-        description: NK
+        description: Natural Key
       - name: salespersonid as salesPerson_id
-        description: FK
+        description: Foreing Key
       - name: source.name as storeName
       - name: demographics
 

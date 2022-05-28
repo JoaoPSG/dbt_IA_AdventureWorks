@@ -30,13 +30,13 @@ sources:
       - name: airbyte_customer
         columns:
           - name: customerid
-            description: NK
+            description: Natural Key
           - name: personid
-            description: FK 
+            description: Foreing Key
           - name: territoryid
-            description: FK salesterritory
+            description: Foreing Key salesterritory
           - name: storeid
-            description: FK store (not used)
+            description: Foreing Key store (not used)
           - name: rowguid
           - name: modifieddate
 
@@ -44,12 +44,12 @@ sources:
       - name: airbyte_product
         columns:
           - name: productid
-            description: NK
+            description: Natural Key
 
           - name: productmodelid
-            description: FK
+            description: Foreing Key
           - name: productsubcategoryid
-            description: FK
+            description: Foreing Key
 
           - name: name
           - name: productnumber
@@ -79,13 +79,13 @@ sources:
       - name: airbyte_salesorderdetail
         columns:
           - name: salesorderid
-            description: NK
+            description: Natural Key
           - name: salesorderdetailid
-            description: NK; FK
+            description: Natural Key; Foreing Key
           - name: productid
-            description: FK
+            description: Foreing Key
           - name: specialofferid
-            description: FK
+            description: Foreing Key
           - name: orderqyt
           - name: unitprice
           - name: unitpricediscount
@@ -97,23 +97,23 @@ sources:
       - name: airbyte_salesorderheader
         columns:
           - name: salesorderid
-            description: NK
+            description: Natural Key
           - name: salespersonid
-            description: FK (dont know if will be used)
+            description: Foreing Key (dont know if will be used)
           - name: currencyid
-            description: FK (not used)
+            description: Foreing Key (not used)
           - name: customerid
-            description: FK customer
+            description: Foreing Key customer
           - name: territoryid
-            description: FK salesterritory
+            description: Foreing Key salesterritory
           - name: creditcardid
-            description: FK creditcard
+            description: Foreing Key creditcard
           - name: shipmethodid
-            description: FK (not used)
+            description: Foreing Key (not used)
           - name: billtoaddressid
-            description: FK
+            description: Foreing Key
           - name: shiptoaddressid
-            description: FK (not used?)
+            description: Foreing Key (not used)
           - name: status
           - name: taxamt
           - name: comment
@@ -135,15 +135,15 @@ sources:
       - name: airbyte_salesorderheadersalesreason
         columns:
           - name: salesorderid
-            description: NK; FK
+            description: Natural Key; Foreing Key
           - name: salesreasonid
-            description: NK; FK
+            description: Natural Key; Foreing Key
           - name: modifieddate
 
       - name: airbyte_salesreason
         columns:
           - name: salesreasonid
-            description: NK
+            description: Natural Key
           - name: name
           - name: reasontype
           - name: modifieddate
@@ -151,7 +151,7 @@ sources:
       - name: airbyte_person
         columns:
           - name: businessentityid
-            description: NK
+            description: Natural Key
           - name: title
           - name: suffix
           - name: persontype
@@ -169,9 +169,9 @@ sources:
       - name: airbyte_address
         columns:
           - name: addressid
-            description: NK
+            description: Natural Key
           - name: stateprovinceid
-            description: FK
+            description: Foreing Key
           - name: postalcode
           - name: addressline1
           - name: addressline2

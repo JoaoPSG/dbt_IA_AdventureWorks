@@ -30,12 +30,6 @@ models:
           - relationships:
               to: ref('dim_Products')
               field: product_sk
-      # - name: territory_sk
-      #   description: FK
-        # tests:
-          # - relationships:
-          #     to: ref('dim_Reasons')
-          #     field: reason_sk
       - name: customer_sk
         description: FK
         tests:
